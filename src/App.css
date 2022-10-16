@@ -7,6 +7,13 @@
   pointer-events: none;
 }
 
+.map-component {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +42,32 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.mapboxgl-ctrl-group:not(:empty) {
+  box-shadow: none !important;
+  border-radius: 25%;
+}
+
+.mapboxgl-ctrl-group button {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.mapboxgl-ctrl button .mapboxgl-ctrl-icon {
+  height: 50% !important;
+}
+/* .mapboxgl-ctrl-group {
+  background: rgb(20, 188, 255) !important;
+} */
+
+.mapboxgl-popup-content {
+  position: relative;
+  background: #fff;
+  border-radius: 25px !important;
+  text-align: left;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
+  padding: 10px 10px 15px;
+  pointer-events: auto;
 }
