@@ -21,5 +21,5 @@ Are you a UWaterloo student in search of a washroon? UWaterLoo Locator is for yo
 ## Authors
 
 - [@JustColdToast](https://github.com/JustColdToast)
-- Based on a Hackathon project I worked on for SacHacks 2022
+- [Based on a Hackathon project I worked on for SacHacks 2022](https://github.com/SippinOnJuiceBox/Loo-Locator-Find-the-nearest-washroom)
 
