@@ -5,6 +5,7 @@
 .TStack {
     position: fixed;
     display: flex;
+    flex-direction: row-reverse;
     top: 0;
     gap: 5px;
     height: 18vh;
@@ -14,7 +15,9 @@
     z-index: 1;
     width: 80vw;
     margin-bottom: 10%;
-    margin-left: 2%;
+    margin-right: 2%;
+    right: 0;
+
 }
 
 .TStack .mini-info {

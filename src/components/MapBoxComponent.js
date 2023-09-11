@@ -2,12 +2,11 @@ import ReactMapGL, {Marker, Popup, GeolocateControl} from "react-map-gl"
 import washroomData from '../data/Public_Washrooms.json'
 import Pin from './pin';
 import { useState } from 'react';
-import '../styles/MapComponent.css'
+import '../styles/MapBoxComponent.css'
 import setCoords from './Card'
-import HStack from "./HStack";
 import PopupCard from "./PopupCard";
 
-export function MapComponent(){
+export function MapBoxComponent(){
     const [popupInfo, setPopupInfo] = useState(null);
     // const [coords, setCoords] = useState([]);
 
@@ -76,4 +75,4 @@ export function MapComponent(){
     )
 }
 
-export default MapComponent;
+export default MapBoxComponent;

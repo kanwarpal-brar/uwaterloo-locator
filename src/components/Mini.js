@@ -4,7 +4,7 @@ import { MapPin, Toilet } from "phosphor-react";
 export function Card(){
     return (
         <div className="mini-info">
-            <p className='loo'>Loo Locator</p>
+            <p className='loo'>UWaterLoo Locator</p>
             <Toilet size={32} color="#000000" weight="fill" />
         </div>
     )

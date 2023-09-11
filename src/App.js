@@ -4,10 +4,11 @@ import 'mapbox-gl/dist/mapbox-gl.css';
 import ReactMapGL, {Marker, Popup, GeolocateControl} from "react-map-gl"
 import washroomData from './data/Public_Washrooms.json'
 import Pin from './components/pin';
-import MapComponent from './components/MapComponent';
+import MapBoxComponent from './components/MapBoxComponent';
 import HStack from './components/HStack';
 import { useState } from 'react';
 import TStack from './components/TStack';
+import OpenMapComponent from './components/OpenMapComponent';
 function App() {
 
   // TODO: Viewport useState
@@ -24,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <MapComponent className="map-component"></MapComponent>
+      <OpenMapComponent ></OpenMapComponent>
       <TStack/>
       <HStack/>
     </div>

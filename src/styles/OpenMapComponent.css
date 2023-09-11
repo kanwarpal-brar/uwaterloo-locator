@@ -1,0 +1,13 @@
+.open-map-overlay {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+ }
+
+ .leaflet-container {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+  }
