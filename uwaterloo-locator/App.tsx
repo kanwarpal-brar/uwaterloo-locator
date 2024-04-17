@@ -1,14 +1,29 @@
 import { StatusBar } from 'expo-status-bar';
 import { StatusBar as NativeStatusBar } from 'react-native';
 import { StyleSheet, Text, View, } from 'react-native';
-import MapView from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import { UWaterlooRegion } from './constants/map-constants';
 
 export default function App() {
   return (
     <View style={styles.container} >
-      <MapView style={styles.map} region={{latitude: 43.47198, latitudeDelta: 0, longitude: -80.54396, , longitudeDelta:}}/>
-      <StatusBar style="light" hidden={false} networkActivityIndicatorVisible={true}/>
-      <View style={styles.footer}>
+      <MapView
+        style={styles.map}
+        region={UWaterlooRegion}
+        provider={PROVIDER_GOOGLE}
+        showsMyLocationButton={true}
+        showsIndoors={true}
+        showsIndoorLevelPicker={false}
+        onIndoorBuildingFocused={() => console.log('bruh')}
+      />
+
+      <StatusBar
+        style="light"
+        hidden={false}
+        networkActivityIndicatorVisible={true}
+      />
+      
+      <View style={{...styles.footer}}>
         <Text>Header</Text>
       </View>
     </View>
@@ -27,7 +42,7 @@ const styles = StyleSheet.create({
   },
   map: {
     ...StyleSheet.absoluteFillObject,
-    marginTop: NativeStatusBar.currentHeight ? NativeStatusBar.currentHeight + 2 : 30,
+    marginTop: NativeStatusBar.currentHeight ? NativeStatusBar.currentHeight + 2 : 32,
     zIndex: 0,
   },
   footer: {
