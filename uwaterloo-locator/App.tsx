@@ -1,10 +1,12 @@
 import { StatusBar } from 'expo-status-bar';
 import { StatusBar as NativeStatusBar } from 'react-native';
 import { StyleSheet, Text, View, } from 'react-native';
-import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
 import { UWaterlooRegion } from './constants/map-constants';
+import { fetchWashroomLocations } from './api/location-data-api'
 
 export default function App() {
+  const washrooms = fetchWashroomLocations();
   return (
     <View style={styles.container} >
       <MapView
@@ -15,7 +17,22 @@ export default function App() {
         showsIndoors={true}
         showsIndoorLevelPicker={false}
         onIndoorBuildingFocused={() => console.log('bruh')}
-      />
+      >
+        {
+          washrooms.map(
+            (washroom, index) => {
+              return <Marker
+                key={index}
+                coordinate={{latitude: washroom.latitude, longitude: washroom.longitude}}
+                title={washroom.name}
+                tracksViewChanges={false}
+              >
+                <Text style={{fontSize: 25}}>X</Text>
+              </Marker>
+            }
+          )
+        }
+      </MapView>
 
       <StatusBar
         style="light"
