@@ -1,9 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StatusBar as NativeStatusBar } from 'react-native';
 import { StyleSheet, Text, View, } from 'react-native';
-import MapView, { Marker, PROVIDER_GOOGLE } from 'react-native-maps';
+import MapView, { PROVIDER_GOOGLE } from 'react-native-maps';
 import { UWaterlooRegion } from './constants/map-constants';
-import { fetchWashroomLocations } from './api/location-data-api'
+import { NamedLatLng, fetchWashroomLocations } from './api/location-data-api'
+import CustomMapMarker from './components/map/custom-marker/custom-marker';
+
+
+
 
 export default function App() {
   const washrooms = fetchWashroomLocations();
@@ -21,14 +25,10 @@ export default function App() {
         {
           washrooms.map(
             (washroom, index) => {
-              return <Marker
-                key={index}
-                coordinate={{latitude: washroom.latitude, longitude: washroom.longitude}}
-                title={washroom.name}
-                tracksViewChanges={false}
-              >
-                <Text style={{fontSize: 25}}>X</Text>
-              </Marker>
+              return <CustomMapMarker
+              key={index}
+              location={washroom}
+              />
             }
           )
         }
