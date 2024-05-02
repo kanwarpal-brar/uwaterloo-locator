@@ -1,22 +1,59 @@
-import { Children, ReactNode, cloneElement, isValidElement } from "react";
 import { View } from "react-native";
 import Svg, { G, Circle, Path } from "react-native-svg";
+import { FontAwesome6 } from "@expo/vector-icons";
 
 const aspectWidth = 20;
 const aspectHeight = 34.892337;
 const ratio = aspectWidth / aspectHeight;
+
+export type CustomIconType = "toilet" | "person" | "person-dress";
+
+const iconMap: Record<CustomIconType, React.ReactNode> = {
+  toilet: (
+    <FontAwesome6
+      name="toilet"
+      size={15}
+      color="#ededed"
+      style={{ alignSelf: "center" }}
+    />
+  ),
+  person: (
+    <FontAwesome6
+      name="person"
+      size={20}
+      color="#ededed"
+      style={{
+        alignSelf: "center",
+        transform: [{ translateX: 0.31 }, { translateY: -1.5 }],
+      }}
+    />
+  ),
+  "person-dress": (
+    <FontAwesome6
+      name="person-dress"
+      size={20}
+      color="#ededed"
+      style={{
+        alignSelf: "center",
+        transform: [{ translateX: 0.31 }, { translateY: -1.5 }],
+      }}
+    />
+  ),
+};
+
+export type CustomPinProps = {
+  icon?: CustomIconType;
+  fill?: string;
+  stroke?: string;
+  strokeWidth?: number;
+};
 
 export default function CustomPin({
   icon,
   fill,
   stroke,
   strokeWidth,
-}: {
-  icon?: any;
-  fill?: string;
-  stroke?: string;
-  strokeWidth?: number;
-}) {
+}: CustomPinProps) {
   return (
     <View style={{ aspectRatio: ratio }}>
       <Svg height={45} viewBox={`0 0 ${aspectWidth} ${aspectHeight}`}>
@@ -39,7 +76,7 @@ export default function CustomPin({
                   top: "33%",
                 }}
               >
-                {icon}
+                {iconMap[icon]}
               </View>
             ) : (
               <Circle
