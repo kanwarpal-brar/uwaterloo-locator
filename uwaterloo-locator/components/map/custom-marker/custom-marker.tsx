@@ -26,7 +26,7 @@ export default function CustomMapMarker({
       tracksViewChanges={false}
     >
       <CustomPin
-        icon={"person-half-dress"}
+        icon={"toilet"}
         fill="#292929"
         stroke="black"
         strokeWidth={0.5}

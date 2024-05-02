@@ -18,7 +18,10 @@ const iconMap: Record<CustomIconType, React.ReactNode> = {
       name="toilet"
       size={15}
       color="#ededed"
-      style={{ alignSelf: "center" }}
+      style={{
+        alignSelf: "center",
+        transform: [{ translateX: 0.31 }, { translateY: 0 }],
+      }}
     />
   ),
   person: (
