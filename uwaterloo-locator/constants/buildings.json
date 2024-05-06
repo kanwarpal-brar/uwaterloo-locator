@@ -1,0 +1,5196 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "1",
+        "buildingCode": "DWE",
+        "parentBuildingCode": null,
+        "buildingName": "Douglas Wright Engineering Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.47007105,
+        "longitude": -80.53970638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53970638,
+          43.47007105
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "2",
+        "buildingCode": "E2",
+        "parentBuildingCode": null,
+        "buildingName": "Engineering 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.47104345,
+        "longitude": -80.54041224
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54041224,
+          43.47104345
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "3",
+        "buildingCode": "E3",
+        "parentBuildingCode": null,
+        "buildingName": "Engineering 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.4717442,
+        "longitude": -80.54086285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54086285,
+          43.4717442
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4",
+        "buildingCode": "PHY",
+        "parentBuildingCode": null,
+        "buildingName": "Physics",
+        "alternateBuildingNames": null,
+        "latitude": 43.47084805,
+        "longitude": -80.54153806
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54153806,
+          43.47084805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "5",
+        "buildingCode": "ML",
+        "parentBuildingCode": null,
+        "buildingName": "Modern Languages",
+        "alternateBuildingNames": null,
+        "latitude": 43.46909688,
+        "longitude": -80.54287987
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54287987,
+          43.46909688
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "6",
+        "buildingCode": "ESC",
+        "parentBuildingCode": null,
+        "buildingName": "Earth Sciences & Chemistry",
+        "alternateBuildingNames": null,
+        "latitude": 43.47134906,
+        "longitude": -80.54270285
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54270285,
+          43.47134906
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "7",
+        "buildingCode": "B1",
+        "parentBuildingCode": null,
+        "buildingName": "Biology 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.4707354,
+        "longitude": -80.54298461
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54298461,
+          43.4707354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "8",
+        "buildingCode": "LIB",
+        "parentBuildingCode": null,
+        "buildingName": "Dana Porter Arts Library",
+        "alternateBuildingNames": null,
+        "latitude": 43.46984437,
+        "longitude": -80.54242926
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54242926,
+          43.46984437
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "9",
+        "buildingCode": "AL",
+        "parentBuildingCode": null,
+        "buildingName": "Arts Lecture Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.46894115,
+        "longitude": -80.54187136
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54187136,
+          43.46894115
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "10",
+        "buildingCode": "EV1",
+        "parentBuildingCode": null,
+        "buildingName": "Environment 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.4683961,
+        "longitude": -80.54262238
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54262238,
+          43.4683961
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "11",
+        "buildingCode": "RCH",
+        "parentBuildingCode": null,
+        "buildingName": "J.R. Coutts Engineering Lecture Hall",
+        "alternateBuildingNames": [
+          "Engineering Lecture Hall"
+        ],
+        "latitude": 43.47031155,
+        "longitude": -80.54084139
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54084139,
+          43.47031155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "12",
+        "buildingCode": "CSB",
+        "parentBuildingCode": null,
+        "buildingName": "Central Services Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.4737628,
+        "longitude": -80.54378898
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54378898,
+          43.4737628
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "13",
+        "buildingCode": "B2",
+        "parentBuildingCode": null,
+        "buildingName": "Biology 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.4708179,
+        "longitude": -80.54372874
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54372874,
+          43.4708179
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "14",
+        "buildingCode": "GSC",
+        "parentBuildingCode": null,
+        "buildingName": "General Services Complex",
+        "alternateBuildingNames": null,
+        "latitude": 43.47342207,
+        "longitude": -80.54308372
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54308372,
+          43.47342207
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "15",
+        "buildingCode": "COM",
+        "parentBuildingCode": null,
+        "buildingName": "Commissary",
+        "alternateBuildingNames": null,
+        "latitude": 43.47412795,
+        "longitude": -80.54292118
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54292118,
+          43.47412795
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "16",
+        "buildingCode": "SCH",
+        "parentBuildingCode": null,
+        "buildingName": "South Campus Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.4692188,
+        "longitude": -80.54021338
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54021338,
+          43.4692188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "17",
+        "buildingCode": "MC",
+        "parentBuildingCode": null,
+        "buildingName": "Mathematics & Computer Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.47207511,
+        "longitude": -80.54394739
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54394739,
+          43.47207511
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "18",
+        "buildingCode": "PAC",
+        "parentBuildingCode": null,
+        "buildingName": "Physical Activities Complex",
+        "alternateBuildingNames": null,
+        "latitude": 43.47242353,
+        "longitude": -80.54613339
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54613339,
+          43.47242353
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "19",
+        "buildingCode": "SLC",
+        "parentBuildingCode": null,
+        "buildingName": "Student Life Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.471601,
+        "longitude": -80.545455
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.545455,
+          43.471601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20",
+        "buildingCode": "V1",
+        "parentBuildingCode": null,
+        "buildingName": "Student Village 1",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20CC",
+        "buildingCode": "V1C",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 Central Complex",
+        "alternateBuildingNames": null,
+        "latitude": 43.4716,
+        "longitude": -80.54996
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54996,
+          43.4716
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E1",
+        "buildingCode": "VE1",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.471745,
+        "longitude": -80.549317
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549317,
+          43.471745
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E2",
+        "buildingCode": "VE2",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.471821,
+        "longitude": -80.549017
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549017,
+          43.471821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E3",
+        "buildingCode": "VE3",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.47176,
+        "longitude": -80.548612
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.548612,
+          43.47176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E4",
+        "buildingCode": "VE4",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 4",
+        "alternateBuildingNames": null,
+        "latitude": 43.471568,
+        "longitude": -80.548526
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.548526,
+          43.471568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E5",
+        "buildingCode": "VE5",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.471499,
+        "longitude": -80.548917
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.548917,
+          43.471499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20E6",
+        "buildingCode": "VE6",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House East 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.471443,
+        "longitude": -80.549304
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549304,
+          43.471443
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N1",
+        "buildingCode": "VN1",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.47209,
+        "longitude": -80.55003
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55003,
+          43.47209
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N2",
+        "buildingCode": "VN2",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.472284,
+        "longitude": -80.55023
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55023,
+          43.472284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N3",
+        "buildingCode": "VN3",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.47242,
+        "longitude": -80.54994
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54994,
+          43.47242
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N4",
+        "buildingCode": "VN4",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 4",
+        "alternateBuildingNames": null,
+        "latitude": 43.4725,
+        "longitude": -80.5496
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5496,
+          43.4725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N5",
+        "buildingCode": "VN5",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.47224,
+        "longitude": -80.54931
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54931,
+          43.47224
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20N6",
+        "buildingCode": "VN6",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House North 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.47205,
+        "longitude": -80.54956
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54956,
+          43.47205
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S1",
+        "buildingCode": "VS1",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.471112,
+        "longitude": -80.549937
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549937,
+          43.471112
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S2",
+        "buildingCode": "VS2",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.470865,
+        "longitude": -80.549891
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549891,
+          43.470865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S3",
+        "buildingCode": "VS3",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.470715,
+        "longitude": -80.550178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550178,
+          43.470715
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S4",
+        "buildingCode": "VS4",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 4",
+        "alternateBuildingNames": null,
+        "latitude": 43.470614,
+        "longitude": -80.550481
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550481,
+          43.470614
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S5",
+        "buildingCode": "VS5",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.470904,
+        "longitude": -80.550733
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550733,
+          43.470904
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S6",
+        "buildingCode": "VS6",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.471087,
+        "longitude": -80.550478
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550478,
+          43.471087
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S7",
+        "buildingCode": "VS7",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 7",
+        "alternateBuildingNames": null,
+        "latitude": 43.47073,
+        "longitude": -80.55131
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55131,
+          43.47073
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20S8",
+        "buildingCode": "VS8",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House South 8",
+        "alternateBuildingNames": null,
+        "latitude": 43.470919,
+        "longitude": -80.551554
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.551554,
+          43.470919
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W1",
+        "buildingCode": "VW1",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.471513,
+        "longitude": -80.550677
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550677,
+          43.471513
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W2",
+        "buildingCode": "VW2",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.471457,
+        "longitude": -80.551063
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.551063,
+          43.471457
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W3",
+        "buildingCode": "VW3",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.471725,
+        "longitude": -80.551431
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.551431,
+          43.471725
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W4",
+        "buildingCode": "VW4",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 4",
+        "alternateBuildingNames": null,
+        "latitude": 43.471902,
+        "longitude": -80.551192
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.551192,
+          43.471902
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W5",
+        "buildingCode": "VW5",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.472031,
+        "longitude": -80.550897
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550897,
+          43.472031
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "20W6",
+        "buildingCode": "VW6",
+        "parentBuildingCode": "V1",
+        "buildingName": "Student Village 1 House West 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.47183,
+        "longitude": -80.550647
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.550647,
+          43.47183
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "21",
+        "buildingCode": "TH",
+        "parentBuildingCode": null,
+        "buildingName": "Tutors' Houses",
+        "alternateBuildingNames": null,
+        "latitude": 43.470546,
+        "longitude": -80.552748
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552748,
+          43.470546
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "22",
+        "buildingCode": "HS",
+        "parentBuildingCode": null,
+        "buildingName": "Health Services",
+        "alternateBuildingNames": null,
+        "latitude": 43.47058601,
+        "longitude": -80.54611194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54611194,
+          43.47058601
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "23",
+        "buildingCode": "MHR",
+        "parentBuildingCode": null,
+        "buildingName": "Minota Hagey Residence",
+        "alternateBuildingNames": null,
+        "latitude": 43.46579535,
+        "longitude": -80.54275113
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54275113,
+          43.46579535
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "24",
+        "buildingCode": "HH",
+        "parentBuildingCode": null,
+        "buildingName": "J.G. Hagey Hall of the Humanities",
+        "alternateBuildingNames": null,
+        "latitude": 43.46792891,
+        "longitude": -80.54165679
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54165679,
+          43.46792891
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25",
+        "buildingCode": "REV",
+        "parentBuildingCode": null,
+        "buildingName": "Ron Eydt Village",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25CC",
+        "buildingCode": "REC",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village Central Complex",
+        "alternateBuildingNames": null,
+        "latitude": 43.47015582,
+        "longitude": -80.55412369
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55412369,
+          43.47015582
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25E",
+        "buildingCode": "VE",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25EA",
+        "buildingCode": "VEA",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East A",
+        "alternateBuildingNames": null,
+        "latitude": 43.469348,
+        "longitude": -80.553464
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553464,
+          43.469348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25EB",
+        "buildingCode": "VEB",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East B",
+        "alternateBuildingNames": null,
+        "latitude": 43.469348,
+        "longitude": -80.553464
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553464,
+          43.469348
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25EC",
+        "buildingCode": "VEC",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East C",
+        "alternateBuildingNames": null,
+        "latitude": 43.469547,
+        "longitude": -80.552989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552989,
+          43.469547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25ED",
+        "buildingCode": "VED",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East D",
+        "alternateBuildingNames": null,
+        "latitude": 43.469547,
+        "longitude": -80.552989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552989,
+          43.469547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25EE",
+        "buildingCode": "VEE",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East E",
+        "alternateBuildingNames": null,
+        "latitude": 43.469547,
+        "longitude": -80.552989
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552989,
+          43.469547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25EL",
+        "buildingCode": "VEL",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village East L",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25N",
+        "buildingCode": "VN",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25NA",
+        "buildingCode": "VNA",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North A",
+        "alternateBuildingNames": null,
+        "latitude": 43.470777,
+        "longitude": -80.554
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554,
+          43.470777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25NB",
+        "buildingCode": "VNB",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North B",
+        "alternateBuildingNames": null,
+        "latitude": 43.470777,
+        "longitude": -80.554
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554,
+          43.470777
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25NC",
+        "buildingCode": "VNC",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North C",
+        "alternateBuildingNames": null,
+        "latitude": 43.470526,
+        "longitude": -80.553539
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553539,
+          43.470526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25ND",
+        "buildingCode": "VND",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North D",
+        "alternateBuildingNames": null,
+        "latitude": 43.470526,
+        "longitude": -80.553539
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553539,
+          43.470526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25NE",
+        "buildingCode": "VNE",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North E",
+        "alternateBuildingNames": null,
+        "latitude": 43.470526,
+        "longitude": -80.553539
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553539,
+          43.470526
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25NL",
+        "buildingCode": "VNL",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village North L",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25S",
+        "buildingCode": "VS",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SA",
+        "buildingCode": "VSA",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South A",
+        "alternateBuildingNames": null,
+        "latitude": 43.469385,
+        "longitude": -80.554086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554086,
+          43.469385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SB",
+        "buildingCode": "VSB",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South B",
+        "alternateBuildingNames": null,
+        "latitude": 43.469385,
+        "longitude": -80.554086
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554086,
+          43.469385
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SC",
+        "buildingCode": "VSC",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South C",
+        "alternateBuildingNames": null,
+        "latitude": 43.469679,
+        "longitude": -80.554716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554716,
+          43.469679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SD",
+        "buildingCode": "VSD",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South D",
+        "alternateBuildingNames": null,
+        "latitude": 43.469679,
+        "longitude": -80.554716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554716,
+          43.469679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SE",
+        "buildingCode": "VSE",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South E",
+        "alternateBuildingNames": null,
+        "latitude": 43.469679,
+        "longitude": -80.554716
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554716,
+          43.469679
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25SL",
+        "buildingCode": "VSL",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village South L",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25W",
+        "buildingCode": "VW",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WA",
+        "buildingCode": "VWA",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West A",
+        "alternateBuildingNames": null,
+        "latitude": 43.470806,
+        "longitude": -80.554609
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554609,
+          43.470806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WB",
+        "buildingCode": "VWB",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West B",
+        "alternateBuildingNames": null,
+        "latitude": 43.470806,
+        "longitude": -80.554609
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.554609,
+          43.470806
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WC",
+        "buildingCode": "VWC",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West C",
+        "alternateBuildingNames": null,
+        "latitude": 43.470579,
+        "longitude": -80.555062
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.555062,
+          43.470579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WD",
+        "buildingCode": "VWD",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West D",
+        "alternateBuildingNames": null,
+        "latitude": 43.470579,
+        "longitude": -80.555062
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.555062,
+          43.470579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WE",
+        "buildingCode": "VWE",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West E",
+        "alternateBuildingNames": null,
+        "latitude": 43.470579,
+        "longitude": -80.555062
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.555062,
+          43.470579
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "25WL",
+        "buildingCode": "VWL",
+        "parentBuildingCode": "REV",
+        "buildingName": "Ron Eydt Village West L",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26",
+        "buildingCode": "UWP",
+        "parentBuildingCode": null,
+        "buildingName": "University of Waterloo Place",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26CC",
+        "buildingCode": "UCC",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Community Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.4704,
+        "longitude": -80.53553
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53553,
+          43.4704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26EC",
+        "buildingCode": "UEC",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Woolwich Court",
+        "alternateBuildingNames": null,
+        "latitude": 43.47064,
+        "longitude": -80.53354
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53354,
+          43.47064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26ET",
+        "buildingCode": "UET",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Beck Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.470573,
+        "longitude": -80.534699
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.534699,
+          43.470573
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26NC",
+        "buildingCode": "UNC",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Wellesley Court",
+        "alternateBuildingNames": null,
+        "latitude": 43.47155,
+        "longitude": -80.53564
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53564,
+          43.47155
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26SC",
+        "buildingCode": "USC",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Waterloo Court",
+        "alternateBuildingNames": null,
+        "latitude": 43.47007,
+        "longitude": -80.53492
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53492,
+          43.47007
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26WC",
+        "buildingCode": "UWC",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Wilmot Court",
+        "alternateBuildingNames": null,
+        "latitude": 43.47111,
+        "longitude": -80.53666
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53666,
+          43.47111
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "26WT",
+        "buildingCode": "UWT",
+        "parentBuildingCode": "UWP",
+        "buildingName": "UW Place Eby Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.47067,
+        "longitude": -80.53512
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53512,
+          43.47067
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "27",
+        "buildingCode": "UC",
+        "parentBuildingCode": null,
+        "buildingName": "University Club",
+        "alternateBuildingNames": null,
+        "latitude": 43.472334,
+        "longitude": -80.547378
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.547378,
+          43.472334
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "28",
+        "buildingCode": "C2",
+        "parentBuildingCode": null,
+        "buildingName": "Chemistry 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.4720703,
+        "longitude": -80.54290487
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54290487,
+          43.4720703
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "29",
+        "buildingCode": "CPH",
+        "parentBuildingCode": null,
+        "buildingName": "Carl A. Pollock Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.47095002,
+        "longitude": -80.53933936
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53933936,
+          43.47095002
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "30",
+        "buildingCode": "PAS",
+        "parentBuildingCode": null,
+        "buildingName": "Psychology, Anthropology, Sociology",
+        "alternateBuildingNames": null,
+        "latitude": 43.46726305,
+        "longitude": -80.54246097
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54246097,
+          43.46726305
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "31",
+        "buildingCode": "NH",
+        "parentBuildingCode": null,
+        "buildingName": "Ira G. Needles Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.46962635,
+        "longitude": -80.54363089
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54363089,
+          43.46962635
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "32",
+        "buildingCode": "BMH",
+        "parentBuildingCode": null,
+        "buildingName": "B.C. Matthews Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.47386586,
+        "longitude": -80.54517584
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54517584,
+          43.47386586
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "33",
+        "buildingCode": "OPT",
+        "parentBuildingCode": null,
+        "buildingName": "Optometry",
+        "alternateBuildingNames": null,
+        "latitude": 43.47592517,
+        "longitude": -80.5455299
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5455299,
+          43.47592517
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "34",
+        "buildingCode": "EV2",
+        "parentBuildingCode": null,
+        "buildingName": "Environment 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.46786,
+        "longitude": -80.54324
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54324,
+          43.46786
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "35",
+        "buildingCode": "FED",
+        "parentBuildingCode": null,
+        "buildingName": "Federation Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.47324689,
+        "longitude": -80.54864126
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54864126,
+          43.47324689
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "36",
+        "buildingCode": "ECH",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.47366343,
+        "longitude": -80.53864735
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53864735,
+          43.47366343
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "37",
+        "buildingCode": "DC",
+        "parentBuildingCode": null,
+        "buildingName": "William G. Davis Computer Research Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.472761,
+        "longitude": -80.542164
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.542164,
+          43.472761
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "39",
+        "buildingCode": "EIT",
+        "parentBuildingCode": null,
+        "buildingName": "Centre for Environmental and Information Technology",
+        "alternateBuildingNames": null,
+        "latitude": 43.47149504,
+        "longitude": -80.54206448
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54206448,
+          43.47149504
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "40",
+        "buildingCode": "BAU",
+        "parentBuildingCode": null,
+        "buildingName": "Bauer Warehouse",
+        "alternateBuildingNames": null,
+        "latitude": 43.483354,
+        "longitude": -80.545715
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.545715,
+          43.483354
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "41",
+        "buildingCode": "COG",
+        "parentBuildingCode": null,
+        "buildingName": "Columbia Greenhouses",
+        "alternateBuildingNames": null,
+        "latitude": 43.473218,
+        "longitude": -80.559405
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.559405,
+          43.473218
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "42",
+        "buildingCode": "CIF",
+        "parentBuildingCode": null,
+        "buildingName": "Columbia Icefield",
+        "alternateBuildingNames": null,
+        "latitude": 43.47535682,
+        "longitude": -80.54852324
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54852324,
+          43.47535682
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43",
+        "buildingCode": "CLV",
+        "parentBuildingCode": null,
+        "buildingName": "Columbia Lake Village",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43A",
+        "buildingCode": "CTA",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block A",
+        "alternateBuildingNames": null,
+        "latitude": 43.470456,
+        "longitude": -80.5597
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5597,
+          43.470456
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43B",
+        "buildingCode": "CTB",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block B",
+        "alternateBuildingNames": null,
+        "latitude": 43.470754,
+        "longitude": -80.560116
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.560116,
+          43.470754
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43C",
+        "buildingCode": "CTC",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block C",
+        "alternateBuildingNames": null,
+        "latitude": 43.47088,
+        "longitude": -80.559638
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.559638,
+          43.47088
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43D",
+        "buildingCode": "CTD",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block D",
+        "alternateBuildingNames": null,
+        "latitude": 43.470071,
+        "longitude": -80.560934
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.560934,
+          43.470071
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43E",
+        "buildingCode": "CTE",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block E",
+        "alternateBuildingNames": null,
+        "latitude": 43.470384,
+        "longitude": -80.561398
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561398,
+          43.470384
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43F",
+        "buildingCode": "CTF",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block F",
+        "alternateBuildingNames": null,
+        "latitude": 43.470705,
+        "longitude": -80.561178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561178,
+          43.470705
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43G",
+        "buildingCode": "CTG",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block G",
+        "alternateBuildingNames": null,
+        "latitude": 43.4704,
+        "longitude": -80.560832
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.560832,
+          43.4704
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43H",
+        "buildingCode": "CTH",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block H",
+        "alternateBuildingNames": null,
+        "latitude": 43.46974,
+        "longitude": -80.561942
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561942,
+          43.46974
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43J",
+        "buildingCode": "CTJ",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block J",
+        "alternateBuildingNames": null,
+        "latitude": 43.470201,
+        "longitude": -80.562586
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562586,
+          43.470201
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43K",
+        "buildingCode": "CTK",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block K",
+        "alternateBuildingNames": null,
+        "latitude": 43.470152,
+        "longitude": -80.562114
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562114,
+          43.470152
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43L",
+        "buildingCode": "CTL",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block L",
+        "alternateBuildingNames": null,
+        "latitude": 43.469175,
+        "longitude": -80.563248
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563248,
+          43.469175
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43M",
+        "buildingCode": "CTM",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block M",
+        "alternateBuildingNames": null,
+        "latitude": 43.469331,
+        "longitude": -80.56371
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56371,
+          43.469331
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43N",
+        "buildingCode": "CTN",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block N",
+        "alternateBuildingNames": null,
+        "latitude": 43.469598,
+        "longitude": -80.563256
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563256,
+          43.469598
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43P",
+        "buildingCode": "CTP",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Block P",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "43Q",
+        "buildingCode": "CTQ",
+        "parentBuildingCode": "CLV",
+        "buildingName": "Columbia Lake Village South Laundry",
+        "alternateBuildingNames": null,
+        "latitude": 43.4708188,
+        "longitude": -80.5625084
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5625084,
+          43.4708188
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "44",
+        "buildingCode": "MKV",
+        "parentBuildingCode": "MKV",
+        "buildingName": "William Lyon Mackenzie King Village",
+        "alternateBuildingNames": null,
+        "latitude": 43.471509,
+        "longitude": -80.552729
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552729,
+          43.471509
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "44A",
+        "buildingCode": "MKV",
+        "parentBuildingCode": null,
+        "buildingName": "William Lyon Mackenzie King Village",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "44E",
+        "buildingCode": "MKE",
+        "parentBuildingCode": "MKV",
+        "buildingName": "William Lyon Mackenzie King Village East",
+        "alternateBuildingNames": null,
+        "latitude": 43.47132,
+        "longitude": -80.551983
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.551983,
+          43.47132
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "44W",
+        "buildingCode": "MKW",
+        "parentBuildingCode": "MKV",
+        "buildingName": "William Lyon Mackenzie King Village West",
+        "alternateBuildingNames": null,
+        "latitude": 43.471161,
+        "longitude": -80.553056
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.553056,
+          43.471161
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "45",
+        "buildingCode": "TC",
+        "parentBuildingCode": null,
+        "buildingName": "William M. Tatham Centre for Co-operative Education & Career Action",
+        "alternateBuildingNames": null,
+        "latitude": 43.46904735,
+        "longitude": -80.5412835
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5412835,
+          43.46904735
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "47",
+        "buildingCode": "ARC",
+        "parentBuildingCode": null,
+        "buildingName": "School of Architecture",
+        "alternateBuildingNames": null,
+        "latitude": 43.358572,
+        "longitude": -80.31692
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.31692,
+          43.358572
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "48",
+        "buildingCode": "ERC",
+        "parentBuildingCode": null,
+        "buildingName": "Energy Research Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.4736245,
+        "longitude": -80.54447847
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54447847,
+          43.4736245
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "49",
+        "buildingCode": "PHR",
+        "parentBuildingCode": null,
+        "buildingName": "Pharmacy",
+        "alternateBuildingNames": null,
+        "latitude": 43.452847,
+        "longitude": -80.49902
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.49902,
+          43.452847
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "50",
+        "buildingCode": "QNC",
+        "parentBuildingCode": null,
+        "buildingName": "Mike & Ophelia Lazaridis Quantum-Nano Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.4712484,
+        "longitude": -80.54419245
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54419245,
+          43.4712484
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "51",
+        "buildingCode": "RAC",
+        "parentBuildingCode": null,
+        "buildingName": "Research Advancement Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.47884,
+        "longitude": -80.55498
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55498,
+          43.47884
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "52",
+        "buildingCode": "IHB",
+        "parentBuildingCode": null,
+        "buildingName": "Integrated Health Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.452311,
+        "longitude": -80.499208
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.499208,
+          43.452311
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "53",
+        "buildingCode": "E5",
+        "parentBuildingCode": null,
+        "buildingName": "Engineering 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.472953,
+        "longitude": -80.540085
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.540085,
+          43.472953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "54",
+        "buildingCode": "STC",
+        "parentBuildingCode": null,
+        "buildingName": "Science Teaching Complex",
+        "alternateBuildingNames": null,
+        "latitude": 43.47064,
+        "longitude": -80.54338
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54338,
+          43.47064
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "55",
+        "buildingCode": "DMS",
+        "parentBuildingCode": null,
+        "buildingName": "Digital Media Stratford",
+        "alternateBuildingNames": null,
+        "latitude": 43.36783,
+        "longitude": -80.9821
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.9821,
+          43.36783
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "56",
+        "buildingCode": "M3",
+        "parentBuildingCode": null,
+        "buildingName": "Mathematics 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.47320425,
+        "longitude": -80.54404983
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54404983,
+          43.47320425
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "57",
+        "buildingCode": "EV3",
+        "parentBuildingCode": null,
+        "buildingName": "Environment 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.468159,
+        "longitude": -80.543376
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.543376,
+          43.468159
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "58",
+        "buildingCode": "RA2",
+        "parentBuildingCode": null,
+        "buildingName": "Research Advancement Centre 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.47863,
+        "longitude": -80.55553
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55553,
+          43.47863
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "59",
+        "buildingCode": "ART",
+        "parentBuildingCode": null,
+        "buildingName": "Arts Building",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "60",
+        "buildingCode": "E6",
+        "parentBuildingCode": null,
+        "buildingName": "Engineering 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.47295805,
+        "longitude": -80.53868181
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53868181,
+          43.47295805
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "61",
+        "buildingCode": "TJB",
+        "parentBuildingCode": null,
+        "buildingName": "Toby Jenkins Applied Health Research Building",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "62",
+        "buildingCode": "EC1",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.47612645,
+        "longitude": -80.54004246
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54004246,
+          43.47612645
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "63",
+        "buildingCode": "EC2",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.47456525,
+        "longitude": -80.54134834
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54134834,
+          43.47456525
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "64",
+        "buildingCode": "EC3",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.47563655,
+        "longitude": -80.54219408
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54219408,
+          43.47563655
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "65",
+        "buildingCode": "EC4",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus 4",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "66",
+        "buildingCode": "EC5",
+        "parentBuildingCode": null,
+        "buildingName": "East Campus 5",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "67",
+        "buildingCode": "E7",
+        "parentBuildingCode": null,
+        "buildingName": "Engineering 7",
+        "alternateBuildingNames": null,
+        "latitude": 43.47293,
+        "longitude": -80.53958
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53958,
+          43.47293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "68",
+        "buildingCode": "CMH",
+        "parentBuildingCode": null,
+        "buildingName": "Claudette Millar Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.4702626,
+        "longitude": -80.53592688
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.53592688,
+          43.4702626
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "69",
+        "buildingCode": "ST2",
+        "parentBuildingCode": null,
+        "buildingName": "Science Teaching 2",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "85",
+        "buildingCode": "TUN",
+        "parentBuildingCode": null,
+        "buildingName": "Service Tunnels",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "87",
+        "buildingCode": "GST",
+        "parentBuildingCode": null,
+        "buildingName": "Ground Storage Building V2",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "88",
+        "buildingCode": "KKS",
+        "parentBuildingCode": null,
+        "buildingName": "Kiosks 1, 2, 3, 4, & 5",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "89",
+        "buildingCode": "EV",
+        "parentBuildingCode": null,
+        "buildingName": "Electrical Vault",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "90",
+        "buildingCode": "MV",
+        "parentBuildingCode": null,
+        "buildingName": "Mechanical Vault",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "93",
+        "buildingCode": "POV",
+        "parentBuildingCode": null,
+        "buildingName": "Pedestrian Overpass",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "94",
+        "buildingCode": "PT",
+        "parentBuildingCode": null,
+        "buildingName": "Pedestrian Tunnels",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "95",
+        "buildingCode": "TEN",
+        "parentBuildingCode": null,
+        "buildingName": "Tennis Courts",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "100",
+        "buildingCode": "SGR",
+        "parentBuildingCode": null,
+        "buildingName": "Schmidt Greenhouse",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "104",
+        "buildingCode": "GH",
+        "parentBuildingCode": null,
+        "buildingName": "Graduate House",
+        "alternateBuildingNames": [
+          "Grad House"
+        ],
+        "latitude": 43.46973295,
+        "longitude": -80.54091806
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54091806,
+          43.46973295
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "106",
+        "buildingCode": "DB",
+        "parentBuildingCode": null,
+        "buildingName": "Dearborn Pumphouse",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "112",
+        "buildingCode": "BRH",
+        "parentBuildingCode": null,
+        "buildingName": "Brubacher House",
+        "alternateBuildingNames": null,
+        "latitude": 43.475571,
+        "longitude": -80.552348
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.552348,
+          43.475571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "115",
+        "buildingCode": "KDC",
+        "parentBuildingCode": null,
+        "buildingName": "Klemmer Farmhouse Cooperative Nursery Inc.",
+        "alternateBuildingNames": null,
+        "latitude": 43.476023,
+        "longitude": -80.549178
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549178,
+          43.476023
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "123",
+        "buildingCode": "HMN",
+        "parentBuildingCode": null,
+        "buildingName": "Hildegard-Marsden Co-operative Day Nursery",
+        "alternateBuildingNames": null,
+        "latitude": 43.476478,
+        "longitude": -80.549349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.549349,
+          43.476478
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "124",
+        "buildingCode": "BEG",
+        "parentBuildingCode": null,
+        "buildingName": "BEG Test Building",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "125",
+        "buildingCode": "AN3",
+        "parentBuildingCode": null,
+        "buildingName": "145 Columbia",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "128",
+        "buildingCode": "TUL",
+        "parentBuildingCode": null,
+        "buildingName": "Tri-University Library",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "129",
+        "buildingCode": "AB",
+        "parentBuildingCode": null,
+        "buildingName": "Aberfoyle Building",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "130",
+        "buildingCode": "AH",
+        "parentBuildingCode": null,
+        "buildingName": "Aberfoyle House",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "131",
+        "buildingCode": "AS",
+        "parentBuildingCode": null,
+        "buildingName": "Aberfoyle Storage",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "132",
+        "buildingCode": "GA",
+        "parentBuildingCode": null,
+        "buildingName": "335 Gage Avenue",
+        "alternateBuildingNames": null,
+        "latitude": 43.44585,
+        "longitude": -80.5184
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5184,
+          43.44585
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "134",
+        "buildingCode": "KGC",
+        "parentBuildingCode": null,
+        "buildingName": "KW Garden Club",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "135",
+        "buildingCode": "FRF",
+        "parentBuildingCode": null,
+        "buildingName": "Fire Research Facility",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "136",
+        "buildingCode": "PTB",
+        "parentBuildingCode": null,
+        "buildingName": "Pavement & Transportation Technology Building",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "137",
+        "buildingCode": "PTG",
+        "parentBuildingCode": null,
+        "buildingName": "Pavement & Transportation Technology Garage",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "138",
+        "buildingCode": "VS",
+        "parentBuildingCode": null,
+        "buildingName": "Victoria School",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "139",
+        "buildingCode": "VSS",
+        "parentBuildingCode": null,
+        "buildingName": "68 Victoria Street South",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "140",
+        "buildingCode": "AAR",
+        "parentBuildingCode": null,
+        "buildingName": "Architecture Annex Rome",
+        "alternateBuildingNames": null,
+        "latitude": 41.889615,
+        "longitude": 12.470925
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.470925,
+          41.889615
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "144",
+        "buildingCode": "ACW",
+        "parentBuildingCode": null,
+        "buildingName": "Accelerator Centre Waterloo",
+        "alternateBuildingNames": null,
+        "latitude": 43.47738445,
+        "longitude": -80.5490991
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.5490991,
+          43.47738445
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "145",
+        "buildingCode": "WF",
+        "parentBuildingCode": null,
+        "buildingName": "Warrior Field",
+        "alternateBuildingNames": null,
+        "latitude": 43.4747,
+        "longitude": -80.55014
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.55014,
+          43.4747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "146",
+        "buildingCode": "MRS",
+        "parentBuildingCode": null,
+        "buildingName": "Medical & Related Sciences",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "148",
+        "buildingCode": "SCO",
+        "parentBuildingCode": null,
+        "buildingName": "Shanghai China Office",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "149",
+        "buildingCode": "KSW",
+        "parentBuildingCode": null,
+        "buildingName": "195 King Street West",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "150",
+        "buildingCode": "HSC",
+        "parentBuildingCode": null,
+        "buildingName": "Huntsville Summit Centre",
+        "alternateBuildingNames": null,
+        "latitude": 45.32211,
+        "longitude": -79.20695
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -79.20695,
+          45.32211
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "151",
+        "buildingCode": "UAE",
+        "parentBuildingCode": null,
+        "buildingName": "United Arab Emirates Dubai",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "152",
+        "buildingCode": "WSS",
+        "parentBuildingCode": null,
+        "buildingName": "6 Wellington Street, Stratford",
+        "alternateBuildingNames": null,
+        "latitude": 43.370474,
+        "longitude": -80.982231
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.982231,
+          43.370474
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "153",
+        "buildingCode": "BSC",
+        "parentBuildingCode": null,
+        "buildingName": "Bright Starts Co-operative Early Learning Centre",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "155",
+        "buildingCode": "ASA",
+        "parentBuildingCode": null,
+        "buildingName": "Allen Square Arts",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "156",
+        "buildingCode": "CIGI",
+        "parentBuildingCode": null,
+        "buildingName": "Centre for International Governance Innovation (BSIA)",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "158",
+        "buildingCode": "VG",
+        "parentBuildingCode": null,
+        "buildingName": "Velocity Garage",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "159",
+        "buildingCode": "GSK",
+        "parentBuildingCode": null,
+        "buildingName": "44 Gaukel Street, Kitchener",
+        "alternateBuildingNames": null,
+        "latitude": 43.449945,
+        "longitude": -80.4933625
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.4933625,
+          43.449945
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "160",
+        "buildingCode": "WCP",
+        "parentBuildingCode": null,
+        "buildingName": "Waterloo Central Place",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "161",
+        "buildingCode": "MWS",
+        "parentBuildingCode": null,
+        "buildingName": "Manulife Water Street",
+        "alternateBuildingNames": null,
+        "latitude": 43.450469,
+        "longitude": -80.494966
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.494966,
+          43.450469
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "162",
+        "buildingCode": "MTT",
+        "parentBuildingCode": null,
+        "buildingName": "Master of Taxation Toronto",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "163",
+        "buildingCode": "CSA",
+        "parentBuildingCode": null,
+        "buildingName": "55 Caroline St. Apartments",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "164",
+        "buildingCode": "PGC",
+        "parentBuildingCode": null,
+        "buildingName": "166 Pinegrove Cres., Waterloo",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "165",
+        "buildingCode": "TEC",
+        "parentBuildingCode": null,
+        "buildingName": "220 Yonge Street, Suite 115, Toronto",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "166",
+        "buildingCode": "STM",
+        "parentBuildingCode": null,
+        "buildingName": "Shelburne Terrace, Gaithersburg, Maryland",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "167",
+        "buildingCode": "LHI",
+        "parentBuildingCode": null,
+        "buildingName": "Lyle S. Hallman Institute for Health Promotion",
+        "alternateBuildingNames": null,
+        "latitude": 43.473256,
+        "longitude": -80.546066
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546066,
+          43.473256
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "800",
+        "buildingCode": "STJ",
+        "parentBuildingCode": null,
+        "buildingName": "St. Jerome's University",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "801",
+        "buildingCode": "STJ-SW",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Sweeney Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "802",
+        "buildingCode": "STJ-SWA",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Sweeney Hall Addition",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "811",
+        "buildingCode": "STJ-FR",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Finn Residence",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "812",
+        "buildingCode": "STJ-LH",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Louis Hall",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "813",
+        "buildingCode": "STJ-CB",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Classroom Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "814",
+        "buildingCode": "STJ-AC",
+        "parentBuildingCode": "STJ",
+        "buildingName": "St. Jerome's University Academic Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.46926818,
+        "longitude": -80.54588395
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54588395,
+          43.46926818
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "815",
+        "buildingCode": "STJ-RC",
+        "parentBuildingCode": null,
+        "buildingName": "St. Jerome's University Residence Complex",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "820",
+        "buildingCode": "REN",
+        "parentBuildingCode": null,
+        "buildingName": "Renison University College",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "821",
+        "buildingCode": "REN-OB",
+        "parentBuildingCode": "REN",
+        "buildingName": "Renison University College Original Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.46881657,
+        "longitude": -80.54762202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54762202,
+          43.46881657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "822",
+        "buildingCode": "REN",
+        "parentBuildingCode": "REN",
+        "buildingName": "Renison University College Addition",
+        "alternateBuildingNames": null,
+        "latitude": 43.46881657,
+        "longitude": -80.54762202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54762202,
+          43.46881657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "823",
+        "buildingCode": "REN",
+        "parentBuildingCode": "REN",
+        "buildingName": "Renison University College Addition 2 - Chapel",
+        "alternateBuildingNames": null,
+        "latitude": 43.46881657,
+        "longitude": -80.54762202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54762202,
+          43.46881657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "824",
+        "buildingCode": "REN",
+        "parentBuildingCode": "REN",
+        "buildingName": "Renison University College Addition 3 - Link",
+        "alternateBuildingNames": null,
+        "latitude": 43.46881657,
+        "longitude": -80.54762202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54762202,
+          43.46881657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "825",
+        "buildingCode": "REN",
+        "parentBuildingCode": "REN",
+        "buildingName": "Renison University College Addition 4 - Academic Centre",
+        "alternateBuildingNames": null,
+        "latitude": 43.46881657,
+        "longitude": -80.54762202
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54762202,
+          43.46881657
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "830",
+        "buildingCode": "STP",
+        "parentBuildingCode": null,
+        "buildingName": "St. Paul's University College",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "831",
+        "buildingCode": "STP-ADMIN",
+        "parentBuildingCode": "STP",
+        "buildingName": "St. Paul's United College Main Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.467762,
+        "longitude": -80.546404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546404,
+          43.467762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "832",
+        "buildingCode": "STP-WW",
+        "parentBuildingCode": "STP",
+        "buildingName": "St. Paul's United College West Wing",
+        "alternateBuildingNames": null,
+        "latitude": 43.467762,
+        "longitude": -80.546404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546404,
+          43.467762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "833",
+        "buildingCode": "STP-EW",
+        "parentBuildingCode": "STP",
+        "buildingName": "St. Paul's United College East Wing",
+        "alternateBuildingNames": null,
+        "latitude": 43.467762,
+        "longitude": -80.546404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546404,
+          43.467762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "834",
+        "buildingCode": "STP-GRAD",
+        "parentBuildingCode": "STP",
+        "buildingName": "St. Paul's United College Graduate Apartment",
+        "alternateBuildingNames": null,
+        "latitude": 43.467762,
+        "longitude": -80.546404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546404,
+          43.467762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "835",
+        "buildingCode": "STP-NW",
+        "parentBuildingCode": "STP",
+        "buildingName": "St. Paul's United College North Wing",
+        "alternateBuildingNames": null,
+        "latitude": 43.467762,
+        "longitude": -80.546404
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.546404,
+          43.467762
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "840",
+        "buildingCode": "CGR",
+        "parentBuildingCode": null,
+        "buildingName": "Conrad Grebel University College",
+        "alternateBuildingNames": null,
+        "latitude": 43.46656,
+        "longitude": -80.54525
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54525,
+          43.46656
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "841",
+        "buildingCode": "CGR",
+        "parentBuildingCode": "CGR",
+        "buildingName": "Conrad Grebel University College Residence",
+        "alternateBuildingNames": null,
+        "latitude": 43.46666747,
+        "longitude": -80.54541188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54541188,
+          43.46666747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "842",
+        "buildingCode": "CGR",
+        "parentBuildingCode": "CGR",
+        "buildingName": "Conrad Grebel University College Administration Building",
+        "alternateBuildingNames": null,
+        "latitude": 43.46666747,
+        "longitude": -80.54541188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54541188,
+          43.46666747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "843",
+        "buildingCode": "CGR",
+        "parentBuildingCode": "CGR",
+        "buildingName": "Conrad Grebel University College Residence Addition",
+        "alternateBuildingNames": null,
+        "latitude": 43.46666747,
+        "longitude": -80.54541188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54541188,
+          43.46666747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "844",
+        "buildingCode": "CGR",
+        "parentBuildingCode": "CGR",
+        "buildingName": "Conrad Grebel University College Administration Addition",
+        "alternateBuildingNames": null,
+        "latitude": 43.46666747,
+        "longitude": -80.54541188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54541188,
+          43.46666747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "845",
+        "buildingCode": "CGR",
+        "parentBuildingCode": "CGR",
+        "buildingName": "Conrad Grebel University College Apartments",
+        "alternateBuildingNames": null,
+        "latitude": 43.46666747,
+        "longitude": -80.54541188
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54541188,
+          43.46666747
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4600",
+        "buildingCode": "CLN",
+        "parentBuildingCode": null,
+        "buildingName": "Columbia Lake Village North",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4601",
+        "buildingCode": "L01",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 1",
+        "alternateBuildingNames": null,
+        "latitude": 43.473547,
+        "longitude": -80.562819
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562819,
+          43.473547
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4602",
+        "buildingCode": "L02",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 2",
+        "alternateBuildingNames": null,
+        "latitude": 43.473173,
+        "longitude": -80.562532
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562532,
+          43.473173
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4603",
+        "buildingCode": "L03",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 3",
+        "alternateBuildingNames": null,
+        "latitude": 43.472739,
+        "longitude": -80.562125
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562125,
+          43.472739
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4604",
+        "buildingCode": "L04",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 4",
+        "alternateBuildingNames": null,
+        "latitude": 43.472426,
+        "longitude": -80.561728
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561728,
+          43.472426
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4605",
+        "buildingCode": "L05",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 5",
+        "alternateBuildingNames": null,
+        "latitude": 43.472194,
+        "longitude": -80.561368
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561368,
+          43.472194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4606",
+        "buildingCode": "L06",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 6",
+        "alternateBuildingNames": null,
+        "latitude": 43.471896,
+        "longitude": -80.561191
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561191,
+          43.471896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4607",
+        "buildingCode": "L07",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 7",
+        "alternateBuildingNames": null,
+        "latitude": 43.471723,
+        "longitude": -80.561706
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.561706,
+          43.471723
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4608",
+        "buildingCode": "L08",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 8",
+        "alternateBuildingNames": null,
+        "latitude": 43.471536,
+        "longitude": -80.562194
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562194,
+          43.471536
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4609",
+        "buildingCode": "L09",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 9",
+        "alternateBuildingNames": null,
+        "latitude": 43.471895,
+        "longitude": -80.562642
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562642,
+          43.471895
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4610",
+        "buildingCode": "L10",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 10",
+        "alternateBuildingNames": null,
+        "latitude": 43.472243,
+        "longitude": -80.562618
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562618,
+          43.472243
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4611",
+        "buildingCode": "L11",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 11",
+        "alternateBuildingNames": null,
+        "latitude": 43.472568,
+        "longitude": -80.562495
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562495,
+          43.472568
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4612",
+        "buildingCode": "L12",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 12",
+        "alternateBuildingNames": null,
+        "latitude": 43.472251,
+        "longitude": -80.56213
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56213,
+          43.472251
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4613",
+        "buildingCode": "L13",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 13",
+        "alternateBuildingNames": null,
+        "latitude": 43.472885,
+        "longitude": -80.562699
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562699,
+          43.472885
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4614",
+        "buildingCode": "L14",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 14",
+        "alternateBuildingNames": null,
+        "latitude": 43.472447,
+        "longitude": -80.562964
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562964,
+          43.472447
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4615",
+        "buildingCode": "L15",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 15",
+        "alternateBuildingNames": null,
+        "latitude": 43.472148,
+        "longitude": -80.563334
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563334,
+          43.472148
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4616",
+        "buildingCode": "L16",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 16",
+        "alternateBuildingNames": null,
+        "latitude": 43.472081,
+        "longitude": -80.56405
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56405,
+          43.472081
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4617",
+        "buildingCode": "L17",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 17",
+        "alternateBuildingNames": null,
+        "latitude": 43.472451,
+        "longitude": -80.56364
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56364,
+          43.472451
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4618",
+        "buildingCode": "L18",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 18",
+        "alternateBuildingNames": null,
+        "latitude": 43.472652,
+        "longitude": -80.563315
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563315,
+          43.472652
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4619",
+        "buildingCode": "L19",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 19",
+        "alternateBuildingNames": null,
+        "latitude": 43.473284,
+        "longitude": -80.563176
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563176,
+          43.473284
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4620",
+        "buildingCode": "L20",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 20",
+        "alternateBuildingNames": null,
+        "latitude": 43.473,
+        "longitude": -80.56349
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56349,
+          43.473
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4621",
+        "buildingCode": "L21",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 21",
+        "alternateBuildingNames": null,
+        "latitude": 43.472673,
+        "longitude": -80.563852
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563852,
+          43.472673
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4622",
+        "buildingCode": "L22",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 22",
+        "alternateBuildingNames": null,
+        "latitude": 43.472356,
+        "longitude": -80.564235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564235,
+          43.472356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4623",
+        "buildingCode": "L23",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 23",
+        "alternateBuildingNames": null,
+        "latitude": 43.471898,
+        "longitude": -80.564713
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564713,
+          43.471898
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4624",
+        "buildingCode": "L24",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 24",
+        "alternateBuildingNames": null,
+        "latitude": 43.471659,
+        "longitude": -80.565011
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.565011,
+          43.471659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4625",
+        "buildingCode": "L25",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 25",
+        "alternateBuildingNames": null,
+        "latitude": 43.471377,
+        "longitude": -80.565327
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.565327,
+          43.471377
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4626",
+        "buildingCode": "L26",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 26",
+        "alternateBuildingNames": null,
+        "latitude": 43.471194,
+        "longitude": -80.564995
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564995,
+          43.471194
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4627",
+        "buildingCode": "L27",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 27",
+        "alternateBuildingNames": null,
+        "latitude": 43.471153,
+        "longitude": -80.564517
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564517,
+          43.471153
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4628",
+        "buildingCode": "L28",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 28",
+        "alternateBuildingNames": null,
+        "latitude": 43.471268,
+        "longitude": -80.56405
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56405,
+          43.471268
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4629",
+        "buildingCode": "L29",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 29",
+        "alternateBuildingNames": null,
+        "latitude": 43.471359,
+        "longitude": -80.563578
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563578,
+          43.471359
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4630",
+        "buildingCode": "L30",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 30",
+        "alternateBuildingNames": null,
+        "latitude": 43.471414,
+        "longitude": -80.562943
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562943,
+          43.471414
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4631",
+        "buildingCode": "L31",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 31",
+        "alternateBuildingNames": null,
+        "latitude": 43.471719,
+        "longitude": -80.562948
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.562948,
+          43.471719
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4632",
+        "buildingCode": "L32",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 32",
+        "alternateBuildingNames": null,
+        "latitude": 43.471793,
+        "longitude": -80.56345
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.56345,
+          43.471793
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4633",
+        "buildingCode": "L33",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 33",
+        "alternateBuildingNames": null,
+        "latitude": 43.471606,
+        "longitude": -80.563895
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.563895,
+          43.471606
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4634",
+        "buildingCode": "L34",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 34",
+        "alternateBuildingNames": null,
+        "latitude": 43.471439,
+        "longitude": -80.564705
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564705,
+          43.471439
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "4635",
+        "buildingCode": "L35",
+        "parentBuildingCode": "CLN",
+        "buildingName": "Columbia Lake Village North Block 35",
+        "alternateBuildingNames": null,
+        "latitude": 43.47185,
+        "longitude": -80.564235
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.564235,
+          43.47185
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "A",
+        "buildingCode": "SCS",
+        "parentBuildingCode": null,
+        "buildingName": "South Campus - South Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "AHSX",
+        "buildingCode": "EXP",
+        "parentBuildingCode": null,
+        "buildingName": "Expansion",
+        "alternateBuildingNames": null,
+        "latitude": 43.47361,
+        "longitude": -80.54624
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -80.54624,
+          43.47361
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "B",
+        "buildingCode": "SCN",
+        "parentBuildingCode": null,
+        "buildingName": "South Campus - North Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "CGB",
+        "buildingCode": "CGB",
+        "parentBuildingCode": null,
+        "buildingName": "Campus General Buildings",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "D",
+        "buildingCode": "VLG",
+        "parentBuildingCode": null,
+        "buildingName": "Village 1 & 2 Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "E",
+        "buildingCode": "MHG",
+        "parentBuildingCode": null,
+        "buildingName": "Minota Hagey Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "F",
+        "buildingCode": "FCG",
+        "parentBuildingCode": null,
+        "buildingName": "Faculty Club Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "G",
+        "buildingCode": "GAG",
+        "parentBuildingCode": null,
+        "buildingName": "Garage & Garbage",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "H",
+        "buildingCode": "MSG",
+        "parentBuildingCode": null,
+        "buildingName": "Married Student Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "J",
+        "buildingCode": "GRH",
+        "parentBuildingCode": null,
+        "buildingName": "Greenhouse",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "K",
+        "buildingCode": "NCG",
+        "parentBuildingCode": null,
+        "buildingName": "North Campus Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "L",
+        "buildingCode": "BAG",
+        "parentBuildingCode": null,
+        "buildingName": "Bauer Grounds",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "M",
+        "buildingCode": "LL",
+        "parentBuildingCode": null,
+        "buildingName": "Laurel Lake",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "buildingId": "SCG",
+        "buildingCode": "SCG",
+        "parentBuildingCode": null,
+        "buildingName": "South Campus General",
+        "alternateBuildingNames": null,
+        "latitude": null,
+        "longitude": null
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0,
+          0
+        ]
+      }
+    }
+  ]
+}
