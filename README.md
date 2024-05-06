@@ -5,10 +5,10 @@ Are you a UWaterloo student in search of a washroon? UWaterLoo Locator is for yo
 
 ## Tech
 
-- OpenStreetMaps
-- React
-- Node.js backend using Nest.js, hosted on AWS,
-- CSS
+- React Native
+- Google Maps
+- Node.js backend using Nest.js
+- Typescript
 
 ## Features
 
