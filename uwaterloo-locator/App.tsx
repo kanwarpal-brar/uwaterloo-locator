@@ -27,13 +27,4 @@ const styles = StyleSheet.create({
     height: "80%",
     backgroundColor: "black",
   },
-  footer: {
-    zIndex: 1,
-    backgroundColor: "white",
-    borderTopLeftRadius: 20,
-    borderTopRightRadius: 20,
-    width: "100%",
-    height: "12%",
-    padding: 10,
-  },
 });
