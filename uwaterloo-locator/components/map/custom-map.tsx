@@ -11,15 +11,26 @@ import {
   View,
   StatusBar as NativeStatusBar,
 } from "react-native";
-import { MapContext } from "./map-context";
-
+import { MapContext, MapContextType, MapModeTypes } from "./map-context";
 export type CustomMapProps = {
   style?: StyleProp<ViewStyle>;
 };
 
 export default function CustomMap({ style }: CustomMapProps) {
   const washrooms = fetchWashroomLocations();
-  const mapData = useContext(MapContext);
+  const mapContext: MapContextType = useContext(MapContext);
+
+  function generateMarkers(mapMode: string) {
+    switch (mapMode) {
+      case MapModeTypes.standard:
+        return washrooms.map((washroom, index) => {
+          return <CustomMapMarker key={index} location={washroom} />;
+        });
+      case MapModeTypes.manual:
+        return <CustomMapMarker location={washrooms[0]} />;
+    }
+  }
+
   return (
     <View style={styles.container}>
       <MapView
@@ -31,9 +42,7 @@ export default function CustomMap({ style }: CustomMapProps) {
         showsIndoorLevelPicker={false}
         onIndoorBuildingFocused={() => console.log("bruh")}
       >
-        {washrooms.map((washroom, index) => {
-          return <CustomMapMarker key={index} location={washroom} />;
-        })}
+        {generateMarkers(mapContext.mode)}
       </MapView>
     </View>
   );

@@ -1,21 +1,34 @@
 import { useContext } from "react";
 import { View, Text, StyleSheet, Pressable } from "react-native";
-import { MapContext } from "../map-context";
+import {
+  MapActionTypes,
+  MapContext,
+  MapDispatchContext,
+  MapModeTypes,
+} from "../map-context";
 
 export default function ActionPanel() {
+  const mapContext = useContext(MapContext);
+  const mapDispatchContext = useContext(MapDispatchContext);
+
   const buttons = [
     {
       name: "Add",
-      onPress: () => console.log("Add Test"),
+      onPress: () => {
+        console.log(mapContext.mode);
+        mapDispatchContext({
+          type:
+            mapContext.mode === MapModeTypes.standard
+              ? MapActionTypes.SET_MANUAL_MODE
+              : MapActionTypes.SET_STANDARD_MODE,
+        });
+      },
     },
     {
       name: "Test Button",
       onPress: () => console.log("Test"),
     },
   ];
-
-  const mapData = useContext(MapContext);
-
   return (
     <View style={styles.panel}>
       {buttons.map((button, index) => {
