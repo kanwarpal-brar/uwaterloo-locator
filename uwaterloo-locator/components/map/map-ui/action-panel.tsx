@@ -1,4 +1,6 @@
-import { View, Text, StyleSheet, Button, Pressable } from "react-native";
+import { useContext } from "react";
+import { View, Text, StyleSheet, Pressable } from "react-native";
+import { MapContext } from "../map-context";
 
 export default function ActionPanel() {
   const buttons = [
@@ -11,6 +13,8 @@ export default function ActionPanel() {
       onPress: () => console.log("Test"),
     },
   ];
+
+  const mapData = useContext(MapContext);
 
   return (
     <View style={styles.panel}>
@@ -48,7 +52,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     backgroundColor: "white",
     borderRadius: 10,
-    elevation: 2, // Add this line
+    borderColor: "#ededed",
+    borderWidth: 1,
+    elevation: 2.5, // Add this line
   },
 });
 

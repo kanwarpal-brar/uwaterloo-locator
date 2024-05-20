@@ -2,6 +2,7 @@ import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
 import { UWaterlooRegion } from "../../constants/map-constants";
 import { fetchWashroomLocations } from "../../api/location-data-api";
 import CustomMapMarker from "../map/custom-marker/custom-marker";
+import { useContext } from "react";
 
 import {
   StyleProp,
@@ -10,6 +11,7 @@ import {
   View,
   StatusBar as NativeStatusBar,
 } from "react-native";
+import { MapContext } from "./map-context";
 
 export type CustomMapProps = {
   style?: StyleProp<ViewStyle>;
@@ -17,6 +19,7 @@ export type CustomMapProps = {
 
 export default function CustomMap({ style }: CustomMapProps) {
   const washrooms = fetchWashroomLocations();
+  const mapData = useContext(MapContext);
   return (
     <View style={styles.container}>
       <MapView
