@@ -1,9 +1,17 @@
-import { View, Text, StyleSheet } from "react-native";
+import {
+  View,
+  Text,
+  StyleSheet,
+  StatusBar as NativeStatusBar,
+} from "react-native";
+import ActionPanel from "../map/map-ui/action-panel";
 
 export default function Footer() {
   return (
     <View style={{ ...styles.footer }}>
-      <Text>Footer</Text>
+      <View style={styles.actionContainer}>
+        <ActionPanel />
+      </View>
     </View>
   );
 }
@@ -17,5 +25,9 @@ const styles = StyleSheet.create({
     width: "100%",
     height: "12%",
     padding: 10,
+    overflow: "hidden",
+  },
+  actionContainer: {
+    ...StyleSheet.absoluteFillObject,
   },
 });
