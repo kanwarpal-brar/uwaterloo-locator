@@ -3,6 +3,7 @@ import { UWaterlooRegion } from "../../constants/map-constants";
 import { fetchWashroomLocations } from "../../api/location-data-api";
 import CustomMapMarker from "../map/custom-marker/custom-marker";
 import { useContext } from "react";
+import { Platform } from "react-native";
 
 import {
   StyleProp,
@@ -36,11 +37,12 @@ export default function CustomMap({ style }: CustomMapProps) {
       <MapView
         style={style ? style : styles.map}
         region={UWaterlooRegion}
-        provider={PROVIDER_GOOGLE}
+        provider={Platform.OS == "android" ? PROVIDER_GOOGLE : undefined}
         showsMyLocationButton={true}
         showsIndoors={true}
         showsIndoorLevelPicker={false}
         onIndoorBuildingFocused={() => console.log("bruh")}
+        showsUserLocation={true}
       >
         {generateMarkers(mapContext.mode)}
       </MapView>
