@@ -10,14 +10,15 @@
   },
   "dependencies": {
     "@expo/vector-icons": "^14.0.1",
-    "expo": "52",
+    "expo": "52.0.7",
+    "expo-dev-client": "~5.0.2",
     "expo-location": "~18.0.1",
     "expo-status-bar": "~2.0.0",
     "prettier": "^3.2.5",
     "react": "^18.3",
-    "react-native": "0.76.1",
+    "react-native": "0.76.2",
     "react-native-maps": "1.18.0",
-    "react-native-svg": "^15.8.0"
+    "react-native-svg": "15.8.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
@@ -25,7 +26,6 @@
     "@react-native/metro-config": "^0.74.81",
     "@types/react": "~18.3.12",
     "globals": "^15.1.0",
-    "react-native-svg-transformer": "^1.5.0",
     "typescript": "~5.3.3",
     "typescript-eslint": "^7.8.0"
   },
