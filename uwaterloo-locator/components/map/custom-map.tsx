@@ -2,7 +2,7 @@ import MapView, { PROVIDER_GOOGLE } from "react-native-maps";
 import { UWaterlooRegion } from "../../constants/map-constants";
 import { fetchWashroomLocations } from "../../api/location-data-api";
 import CustomMapMarker from "../map/custom-marker/custom-marker";
-import { useContext } from "react";
+import { useContext, useMemo, useState } from "react";
 
 import {
   StyleProp,
@@ -20,6 +20,12 @@ export type CustomMapProps = {
 export default function CustomMap({ style }: CustomMapProps) {
   const washrooms = fetchWashroomLocations();
   const mapContext: MapContextType = useContext(MapContext);
+  const [markers, setMarkers] = useState(generateMarkers(mapContext.mode));
+
+  useMemo(() => {
+    console.log("Map mode changed to: ", mapContext.mode);
+    setMarkers(generateMarkers(mapContext.mode));
+  }, [mapContext.mode]);
 
   function generateMarkers(mapMode: string) {
     switch (mapMode) {
@@ -28,7 +34,7 @@ export default function CustomMap({ style }: CustomMapProps) {
           return <CustomMapMarker key={index} location={washroom} />;
         });
       case MapModeTypes.manual:
-        return <CustomMapMarker location={washrooms[0]} />;
+        return [<CustomMapMarker key={0} location={washrooms[0]} />];
     }
   }
 
@@ -47,7 +53,7 @@ export default function CustomMap({ style }: CustomMapProps) {
         showsPointsOfInterest={false}
         loadingEnabled={true}
       >
-        {generateMarkers(mapContext.mode)}
+        {markers}
       </MapView>
     </View>
   );
