@@ -4,19 +4,21 @@ import CustomMap from "./components/map/custom-map";
 import Footer from "./components/home-ui/footer";
 import { MapDataProvider } from "./components/map/map-context";
 import * as Location from "expo-location";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 
 export default function App() {
   const [location, setLocation] = useState(null as any);
   const [errorMsg, setErrorMsg] = useState(null as any);
+  const [haveLocationPerm, setHaveLocationPerm] = useState(false);
 
-  useEffect(() => {
+  useMemo(() => {
     (async () => {
       let { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
         setErrorMsg("Permission to access location was denied");
         return;
       }
+      setHaveLocationPerm(true);
 
       let location = await Location.getCurrentPositionAsync({});
       setLocation(location);
@@ -26,7 +28,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <MapDataProvider>
-        <CustomMap />
+        {haveLocationPerm && <CustomMap />}
         <Footer />
         <StatusBar
           style="light"
