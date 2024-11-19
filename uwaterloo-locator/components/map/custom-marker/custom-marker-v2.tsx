@@ -19,7 +19,7 @@ export interface CustomMarkerRef {
   animateMarkerToCoordinate: (coordinate: LatLng, duration?: number) => void;
 }
 
-const CustomMarkerV2 = forwardRef<MapMarker, CustomMarkerProps>(
+const CustomMarkerV2 = forwardRef<CustomMarkerRef, CustomMarkerProps>(
   (
     {
       coordinate,
@@ -34,32 +34,32 @@ const CustomMarkerV2 = forwardRef<MapMarker, CustomMarkerProps>(
   ) => {
     const markerRef = useRef<MapMarker | null>(null);
 
-    // useImperativeHandle(ref, () => ({
-    //   redraw: () => {
-    //     if (markerRef.current) {
-    //       console.log("marker redraw");
-    //       markerRef.current.redraw();
-    //     }
-    //   },
-    //   showCallout: () => {
-    //     if (markerRef.current) {
-    //       markerRef.current.showCallout();
-    //     }
-    //   },
-    //   hideCallout: () => {
-    //     if (markerRef.current) {
-    //       markerRef.current.hideCallout();
-    //     }
-    //   },
-    //   animateMarkerToCoordinate: (coordinate: LatLng, duration?: number) => {
-    //     if (markerRef.current) {
-    //       markerRef.current.animateMarkerToCoordinate(
-    //         coordinate,
-    //         duration || 500,
-    //       );
-    //     }
-    //   },
-    // }));
+    useImperativeHandle(ref, () => ({
+      redraw: () => {
+        if (markerRef.current) {
+          console.log("marker redraw");
+          markerRef.current.redraw();
+        }
+      },
+      showCallout: () => {
+        if (markerRef.current) {
+          markerRef.current.showCallout();
+        }
+      },
+      hideCallout: () => {
+        if (markerRef.current) {
+          markerRef.current.hideCallout();
+        }
+      },
+      animateMarkerToCoordinate: (coordinate: LatLng, duration?: number) => {
+        if (markerRef.current) {
+          markerRef.current.animateMarkerToCoordinate(
+            coordinate,
+            duration || 500,
+          );
+        }
+      },
+    }));
 
     const DefaultMarkerContent: React.FC = () => (
       <View

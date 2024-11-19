@@ -20,7 +20,7 @@ export type CustomMapProps = {
 
 export default function CustomMap({ style }: CustomMapProps) {
   const mapRef = useRef<MapView>(null);
-  const markerRefs = useRef({});
+  const markerRefs = useRef<CustomMarkerRef[]>([]);
   const washrooms = fetchWashroomLocations();
   const mapContext: MapContextType = useContext(MapContext);
   const [markers, setMarkers] = useState<JSX.Element[]>([]);
@@ -30,21 +30,12 @@ export default function CustomMap({ style }: CustomMapProps) {
     setMarkers(generateMarkers(mapContext.mode));
   }, [mapContext.mode]);
 
-  // // Function to redraw all markers
-  // const redrawAllMarkers = () => {
-  //   console.log("map redraw");
-  //   markerRefs.current.forEach((ref) => {
-  //     if (ref) {
-  //       ref.redraw();
-  //     }
-  //   });
-  // };
-
-  const redrawMarkers = () => {
-    // Redraw all markers by accessing their refs
-    Object.values(markerRefs.current).forEach((markerRef) => {
-      if (markerRef && markerRef.redraw) {
-        markerRef.redraw();
+  // Function to redraw all markers
+  const redrawAllMarkers = () => {
+    console.log("map redraw");
+    markerRefs.current.forEach((ref) => {
+      if (ref) {
+        ref.redraw();
       }
     });
   };
@@ -63,23 +54,19 @@ export default function CustomMap({ style }: CustomMapProps) {
 
   useEffect(() => {
     redrawAllMarkers();
-  }, [mapContext]);
+  }, [mapContext.mode]);
 
   function generateMarkers(mapMode: string): JSX.Element[] {
-    return washrooms.map((washroom, index) => (
-      <CustomMarkerV2
-        key={index}
-        ref={(ref) => (markerRefs.current[location.id] = ref)}
-        coordinate={washroom}
-      />
-    ));
     switch (mapMode) {
       case MapModeTypes.standard:
         return washrooms.map((washroom, index) => (
           <CustomMarkerV2
             key={index}
-            ref={(markerRef: CustomMarkerRef | null) => {
-              markerRefs.current[index] = markerRef;
+            ref={(ref) => {
+              if (ref) {
+                console.log(`set ref ${index}`);
+                markerRefs.current[index] = ref;
+              }
             }}
             coordinate={washroom}
           />
