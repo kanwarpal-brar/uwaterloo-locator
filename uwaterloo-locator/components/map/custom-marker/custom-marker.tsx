@@ -1,42 +1,51 @@
-import React, { useImperativeHandle, forwardRef, useRef } from "react";
+import { useEffect, useRef } from "react";
 import { MapMarker } from "react-native-maps";
 import { NamedLatLng } from "../../../api/location-data-api";
-import { FontAwesome6 } from "@expo/vector-icons";
+import CustomPin from "../custom-pin/custom-pin";
 
-const CustomMapMarker = forwardRef(
-  ({ location }: { location: NamedLatLng }, ref) => {
-    const markerRef = useRef<MapMarker>(null);
+export default function CustomMapMarker({
+  location,
+}: {
+  location: NamedLatLng;
+}) {
+  const markerRef = useRef<MapMarker>(null);
+  // const [reloadState, setReloadState] = useState(false);
 
-    useImperativeHandle(ref, () => ({
-      redraw() {
-        console.log("redrawing marker");
-        if (markerRef.current) {
-          markerRef.current.redraw();
-        }
-      },
-    }));
+  // const toiletIcon = (
+  //   <FontAwesome6
+  //     name="toilet"
+  //     size={15}
+  //     color="#ededed"
+  //     style={{ alignSelf: "center" }}
+  //   />
+  // );
 
-    return (
-      <MapMarker
-        ref={markerRef}
-        coordinate={{
-          latitude: location.latitude,
-          longitude: location.longitude,
-        }}
-        title={location.name}
-        tracksViewChanges={false}
-      >
-        <FontAwesome6
-          name="toilet"
-          size={15}
-          color="#000000"
-          style={{
-            alignSelf: "center",
-          }}
-        />
-      </MapMarker>
-    );
-  },
-);
+  const redraw = () => {
+    markerRef.current?.redraw();
+  };
 
-export default React.memo(CustomMapMarker);
+  // useEffect(() => {
+  //   console.log("mounted");
+  //   redraw();
+  // });
+
+  return (
+    <MapMarker
+      ref={markerRef}
+      coordinate={{
+        latitude: location.latitude,
+        longitude: location.longitude,
+      }}
+      title={location.name}
+      // onLayout={() => setReloadState(true)}
+      tracksViewChanges={false}
+    >
+      <CustomPin
+        icon={"toilet"}
+        fill="#292929"
+        stroke="black"
+        strokeWidth={0.5}
+      />
+    </MapMarker>
+  );
+}

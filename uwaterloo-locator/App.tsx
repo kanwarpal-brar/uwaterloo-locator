@@ -7,15 +7,15 @@ import { MapDataProvider } from "./components/map/map-context";
 export default function App() {
   return (
     <View style={styles.container}>
-      <MapDataProvider>
-        <CustomMap />
-        <Footer />
-        <StatusBar
-          style="light"
-          hidden={false}
-          networkActivityIndicatorVisible={true}
-        />
-      </MapDataProvider>
+      {/* <MapDataProvider> */}
+      <CustomMap />
+      <Footer />
+      <StatusBar
+        style="light"
+        hidden={false}
+        networkActivityIndicatorVisible={true}
+      />
+      {/* </MapDataProvider> */}
     </View>
   );
 }
