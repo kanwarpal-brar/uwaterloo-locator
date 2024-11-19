@@ -32,6 +32,7 @@ export default function CustomMap({ style }: CustomMapProps) {
   const [markers, setMarkers] = useState(generateMarkers(mapContext.mode));
   const [lastUserLocMarker, setLastUserLocMarker] =
     useState<JSX.Element | null>(null);
+  const initialRegion = UWaterlooRegion;
 
   useMemo(() => {
     console.log("Map mode changed to: ", mapContext.mode);
@@ -52,17 +53,25 @@ export default function CustomMap({ style }: CustomMapProps) {
   useEffect(() => {
     // on mount
     (async () => {
+      console.log("running");
       const { status } = await Location.requestForegroundPermissionsAsync();
       if (status !== "granted") {
         return;
       }
       const location = await Location.getCurrentPositionAsync({});
+
+      // Set initialRegion to user's location
+      initialRegion.latitude = location.coords.latitude;
+      initialRegion.longitude = location.coords.longitude;
+
+      // Trigger Map
+      setHaveLocationPerm(true);
+
+      // update context with user's location
       mapDispatchContext({
         type: MapActionTypes.SET_USER_LOCATION,
         payload: location,
       });
-
-      setHaveLocationPerm(true);
     })();
   }, []);
 
@@ -87,7 +96,7 @@ export default function CustomMap({ style }: CustomMapProps) {
       {haveLocationPerm && (
         <MapView
           style={style ? style : styles.map}
-          initialRegion={UWaterlooRegion}
+          initialRegion={initialRegion}
           provider={Platform.OS === "android" ? PROVIDER_GOOGLE : undefined}
           showsMyLocationButton={true}
           showsIndoors={true}
