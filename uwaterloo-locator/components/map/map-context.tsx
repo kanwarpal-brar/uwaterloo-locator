@@ -47,7 +47,7 @@ function mapDataReducer(data: MapContextType, action: any) {
     case MapActionTypes.SET_STANDARD_MODE:
       return { ...data, mode: MapModeTypes.standard };
     case MapActionTypes.SET_USER_LOCATION:
-      return { ...data, userLocation: action.payload };
+      return { ...data, lastUserLocation: action.payload };
     default:
       return data;
   }
