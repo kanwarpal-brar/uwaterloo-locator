@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, View } from "react-native";
 import CustomMap from "./components/map/custom-map";
 import Footer from "./components/home-ui/footer";
 import { MapDataProvider } from "./components/map/map-context";

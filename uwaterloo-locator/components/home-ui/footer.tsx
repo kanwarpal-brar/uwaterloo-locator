@@ -1,15 +1,17 @@
-import {
-  View,
-  Text,
-  StyleSheet,
-  StatusBar as NativeStatusBar,
-} from "react-native";
+import { View, StyleSheet } from "react-native";
 import ActionPanel from "../map/map-ui/action-panel";
+import CustomPin from "../map/custom-pin/custom-pin";
 
 export default function Footer() {
   return (
     <View style={{ ...styles.footer }}>
       <View style={styles.actionContainer}>
+        <CustomPin
+          icon={"toilet"}
+          fill="#292929"
+          stroke="black"
+          strokeWidth={0.5}
+        />
         <ActionPanel />
       </View>
     </View>
