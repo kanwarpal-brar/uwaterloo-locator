@@ -2,9 +2,9 @@ import { Region, Camera } from "react-native-maps";
 
 export const UWaterlooRegion: Region = {
   latitude: 43.47198,
-  latitudeDelta: 0.012,
+  latitudeDelta: 0.002,
   longitude: -80.54396,
-  longitudeDelta: 0.012,
+  longitudeDelta: 0.002,
 };
 
 export const UWaterlooInitialCamera: Camera = {

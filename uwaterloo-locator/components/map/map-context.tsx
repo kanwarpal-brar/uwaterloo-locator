@@ -1,5 +1,5 @@
+import { LocationObject } from "expo-location";
 import { createContext, useReducer } from "react";
-import { LatLng } from "react-native-maps";
 
 export enum MapModeTypes {
   manual = "manual",
@@ -8,19 +8,20 @@ export enum MapModeTypes {
 
 export type MapContextType = {
   mode: MapModeTypes;
-  userLocation: LatLng | null;
+  lastUserLocation: LocationObject | null;
 };
 
 const defaultData: MapContextType = {
   mode: MapModeTypes.standard,
-  userLocation: null,
+  lastUserLocation: null,
 };
 
 export const MapContext = createContext(defaultData);
 
-export const MapDispatchContext = createContext(
-  (() => {}) as React.Dispatch<any>,
-);
+export const MapDispatchContext = createContext((() => {}) as React.Dispatch<{
+  type: MapActionTypes;
+  payload?: any;
+}>);
 
 export function MapDataProvider({ children }: { children: React.ReactNode }) {
   const [data, dispatch] = useReducer(mapDataReducer, defaultData);
@@ -46,7 +47,7 @@ function mapDataReducer(data: MapContextType, action: any) {
     case MapActionTypes.SET_STANDARD_MODE:
       return { ...data, mode: MapModeTypes.standard };
     case MapActionTypes.SET_USER_LOCATION:
-      return { ...data, userLocation: action.payload };
+      return { ...data, lastUserLocation: action.payload };
     default:
       return data;
   }

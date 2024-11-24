@@ -13,7 +13,7 @@ export default function ActionPanel() {
 
   const buttons = [
     {
-      name: "Add",
+      name: "Create",
       onPress: () => {
         console.log(mapContext.mode);
         mapDispatchContext({
@@ -25,7 +25,7 @@ export default function ActionPanel() {
       },
     },
     {
-      name: "Test Button",
+      name: "View Events",
       onPress: () => console.log("Test"),
     },
   ];

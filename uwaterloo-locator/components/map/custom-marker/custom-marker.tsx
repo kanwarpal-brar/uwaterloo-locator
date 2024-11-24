@@ -1,21 +1,19 @@
+import React from "react";
 import { Marker } from "react-native-maps";
 import { NamedLatLng } from "../../../api/location-data-api";
-import CustomPin from "../custom-pin/custom-pin";
-import { FontAwesome6 } from "@expo/vector-icons";
+import CustomPin, { CustomIconType } from "../custom-pin/custom-pin";
 
-export default function CustomMapMarker({
-  location,
-}: {
+type CustomMapMarkerProps = {
   location: NamedLatLng;
-}) {
-  const toiletIcon = (
-    <FontAwesome6
-      name="toilet"
-      size={15}
-      color="#ededed"
-      style={{ alignSelf: "center" }}
-    />
-  );
+  fill?: string;
+  icon?: CustomIconType;
+};
+
+function CustomMapMarker({
+  location,
+  fill = "#292929",
+  icon = "toilet",
+}: CustomMapMarkerProps) {
   return (
     <Marker
       coordinate={{
@@ -25,12 +23,9 @@ export default function CustomMapMarker({
       title={location.name}
       tracksViewChanges={false}
     >
-      <CustomPin
-        icon={"toilet"}
-        fill="#292929"
-        stroke="black"
-        strokeWidth={0.5}
-      />
+      <CustomPin icon={icon} fill={fill} stroke="black" strokeWidth={0.5} />
     </Marker>
   );
 }
+
+export default React.memo(CustomMapMarker);
