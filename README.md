@@ -44,12 +44,41 @@ The application follows a modern microservices architecture with:
 - SQLite (with support for PostgreSQL migration)
 - Event Sourcing
 - Clean Architecture principles
+- Docker containerization
+- Docker Compose for orchestration
+
+### Infrastructure
+- Docker multi-stage builds for optimized images
+- Alpine-based containers for minimal footprint
+- Container health checks
+- Docker volumes for persistent storage
+- Docker networks for service isolation
 
 ### Frontend
 - React Native
 - Google Maps SDK
 - TypeScript
 - Native device location services
+
+## 🔧 Containerization
+
+The application uses Docker for containerization:
+
+- Multi-stage builds for optimized image sizes
+- Non-root user execution for enhanced security
+- Persistent volume mounts for database storage
+- Environment-based configuration
+
+### Running the Service
+
+```bash
+# Using Docker Compose
+docker-compose up --build
+
+# Or using Docker directly
+docker build -t washroom-service ./washroom-data-service
+docker run -p 8080:8080 washroom-service
+```
 
 ## 🌟 Coming Soon
 
