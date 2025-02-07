@@ -3,6 +3,7 @@ package sqlite
 import (
 	"context"
 	"database/sql"
+	"strconv"
 	"time"
 
 	"washroom-data-service/models"
@@ -40,7 +41,7 @@ func (r *sqliteRepository) Create(ctx context.Context, w *models.Washroom) error
 	if err != nil {
 		return err
 	}
-	w.ID = string(id)
+	w.ID = strconv.FormatInt(id, 10)
 	return nil
 }
 
