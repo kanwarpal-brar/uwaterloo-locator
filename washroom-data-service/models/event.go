@@ -1,6 +1,7 @@
 package models
 
 import (
+	"encoding/json"
 	"time"
 )
 
@@ -9,6 +10,7 @@ type Event interface {
 	GetEventType() string
 	GetVersion() int
 	GetTimestamp() time.Time
+	ToJSON() ([]byte, error)
 }
 
 type BaseEvent struct {
@@ -22,3 +24,4 @@ func (e BaseEvent) GetAggregateID() string  { return e.AggregateID }
 func (e BaseEvent) GetEventType() string    { return e.EventType }
 func (e BaseEvent) GetVersion() int         { return e.Version }
 func (e BaseEvent) GetTimestamp() time.Time { return e.Timestamp }
+func (e BaseEvent) ToJSON() ([]byte, error) { return json.Marshal(e) }
