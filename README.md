@@ -39,7 +39,7 @@ The application follows a modern microservices architecture with:
 ## 🛠 Technical Stack
 
 ### Backend
-- Go 1.22
+- Go 1.23.6
 - Gin Web Framework
 - SQLite (with support for PostgreSQL migration)
 - Event Sourcing
