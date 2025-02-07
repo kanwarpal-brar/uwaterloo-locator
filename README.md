@@ -1,25 +1,70 @@
+# 🚽 UWaterLoo Locator: Campus Washroom Discovery Platform
 
-# 🚽 UWaterLoo Locater: Find & Review On-Campus Washrooms 
+A robust and performant application helping UWaterloo students locate and review campus washrooms. Get real-time information about the nearest facilities, complete with crowd-sourced reviews and status updates.
 
-Are you a UWaterloo student in search of a washroon? UWaterLoo Locator is for you! Just open the app and it will use your current location to find the nearest public bathroom. No more searching for a clean and comfortable place to go when you're on the go!
+## 🏗 Architecture
 
-## Tech
+The application follows a modern microservices architecture with:
 
+- **Frontend**: React Native mobile application
+- **Backend**: Go-based microservices using:
+  - Gin web framework for RESTful API
+  - CQRS pattern for efficient read/write operations
+  - Event-driven architecture for real-time updates
+  - Event Sourcing for state management
+  - Repository pattern for data access
+  - SQLite for persistent storage (easily scalable to PostgreSQL)
+- **Location Services**: Google Maps API integration
+
+## 🎨 Design Patterns
+
+- **CQRS (Command Query Responsibility Segregation)**: Separate read and write operations through specialized interfaces
+- **Repository Pattern**: Abstract data persistence through WashroomRepository and LocationQueryRepository
+- **Event Sourcing**: Track state changes through immutable events using the Event interface
+- **Aggregate Pattern**: Encapsulate domain logic and ensure consistency using Aggregate interface
+- **Interface Segregation**: Clean separation of concerns in repository and service layers
+- **Dependency Injection**: Used throughout services for loose coupling
+- **Factory Pattern**: Service and repository creation through New* functions
+
+## 🚀 Key Features
+
+- Real-time washroom location discovery
+- Proximity-based search with customizable radius
+- Building and floor-level washroom filtering
+- Advanced search with amenity filtering
+- Crowd-sourced review system
+- Real-time status updates and issue reporting
+- Cross-platform mobile support
+
+## 🛠 Technical Stack
+
+### Backend
+- Go 1.22
+- Gin Web Framework
+- SQLite (with support for PostgreSQL migration)
+- Event Sourcing
+- Clean Architecture principles
+
+### Frontend
 - React Native
-- Google Maps
-- Node.js backend using Nest.js
-- Typescript
+- Google Maps SDK
+- TypeScript
+- Native device location services
 
-## Features
+## 🌟 Coming Soon
 
-- See available Washrooms on Campus, and locate the nearest one.
-- Find Washrooms according to specified features and personal requirements/preferences.
-- Review Washrooms, Report Issues, and get Updates on new Washrooms Through Crowdsourced data
-- Cross platform (soon)
+- OAuth2 authentication
+- Advanced analytics dashboard
+- Push notifications for status updates
+- Accessibility features
+- Cross-platform desktop support
 
-
-## Authors
+## 👥 Contributors
 
 - [@JustColdToast](https://github.com/JustColdToast)
-- [Based on a Hackathon project I worked on for SacHacks 2022](https://github.com/SippinOnJuiceBox/Loo-Locator-Find-the-nearest-washroom)
+- Original concept inspired by SacHacks 2022 project: [Loo-Locator](https://github.com/SippinOnJuiceBox/Loo-Locator-Find-the-nearest-washroom)
+
+## 📝 License
+
+MIT License - See LICENSE file for details
 
