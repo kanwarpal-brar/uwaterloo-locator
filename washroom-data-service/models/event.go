@@ -5,11 +5,22 @@ import (
 	"time"
 )
 
+// Event represents a domain event that captures a state change in the system.
+// Events are immutable and represent something that has happened in the past.
 type Event interface {
+	// GetAggregateID returns the ID of the aggregate this event belongs to
 	GetAggregateID() string
+
+	// GetEventType returns the type name of the event
 	GetEventType() string
+
+	// GetVersion returns the version number of the event in the aggregate's sequence
 	GetVersion() int
+
+	// GetTimestamp returns when the event occurred
 	GetTimestamp() time.Time
+
+	// ToJSON serializes the event to JSON for persistence
 	ToJSON() ([]byte, error)
 }
 
