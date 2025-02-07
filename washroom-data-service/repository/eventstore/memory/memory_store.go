@@ -26,7 +26,7 @@ func (s *MemoryEventStore) SaveEvents(ctx context.Context, aggregateID string, e
 
 	for _, event := range events {
 		s.events[aggregateID] = append(s.events[aggregateID], event)
-		if err := s.notifyHandlers(event); err != nil {
+		if err := s.NotifyHandlers(event); err != nil {
 			return err
 		}
 	}

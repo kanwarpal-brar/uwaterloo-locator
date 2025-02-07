@@ -1,3 +1,3 @@
-module github.com/kanwarpal-brar/UWaterLoo-Locator/washroom-data-service
+module washroom-data-service
 
-go 1.20
+go 1.23.6

@@ -2,9 +2,12 @@ package eventstore
 
 import (
 	"context"
+	"errors"
 
-	"github.com/brark/uwaterloo-locator/washroom-data-service/models"
+	"washroom-data-service/models"
 )
+
+var ErrAggregateNotFound = errors.New("aggregate not found")
 
 type EventStore interface {
 	SaveEvents(ctx context.Context, aggregateID string, events []models.Event) error
@@ -29,7 +32,8 @@ func (s *BaseEventStore) AddHandler(handler EventHandler) {
 	s.handlers = append(s.handlers, handler)
 }
 
-func (s *BaseEventStore) notifyHandlers(event models.Event) error {
+// NotifyHandlers notifies all registered handlers about an event
+func (s *BaseEventStore) NotifyHandlers(event models.Event) error {
 	for _, handler := range s.handlers {
 		if err := handler.HandleEvent(event); err != nil {
 			return err

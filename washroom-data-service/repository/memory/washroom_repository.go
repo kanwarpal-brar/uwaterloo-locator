@@ -5,8 +5,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/brark/uwaterloo-locator/washroom-data-service/models"
-	"github.com/brark/uwaterloo-locator/washroom-data-service/repository"
+	"washroom-data-service/models"
+	"washroom-data-service/repository"
 )
 
 type memoryRepository struct {
