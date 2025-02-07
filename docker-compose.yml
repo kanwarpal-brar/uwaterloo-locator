@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  washroom-service:
+    build:
+      context: ./washroom-data-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    volumes:
+      - washroom-data:/app/data
+    healthcheck:
+      test: ["CMD", "wget", "--spider", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+volumes:
+  washroom-data:
