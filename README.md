@@ -1,40 +1,40 @@
-# 🚽 UWaterLoo Locator: Campus Washroom Discovery Platform
+# 🚽 UWaterLoo Locator: Find Your Nearest Washroom
 
-A robust and performant application helping UWaterloo students locate and review campus washrooms. Get real-time information about the nearest facilities, complete with crowd-sourced reviews and status updates.
+A cozy project built by me to help UWaterloo students find and review campus washrooms. Whether you’re in a rush or just curious, this app gives you real-time updates on washroom locations and reviews from people just like you.
 
-## 🏗 Architecture
+## 🏗 How It's Built
 
-The application follows a modern microservices architecture with:
+I put together a modern mix of tech that’s both powerful and fun to work with:
 
-- **Frontend**: React Native mobile application
-- **Backend**: Go-based microservices using:
-  - Gin web framework for RESTful API
-  - CQRS pattern for efficient read/write operations
-  - Event-driven architecture for real-time updates
-  - Event Sourcing for state management
-  - Repository pattern for data access
-  - SQLite for persistent storage (easily scalable to PostgreSQL)
-- **Location Services**: Google Maps API integration
+- **Frontend**: A React Native app that feels right at home on your phone.
+- **Backend**: Go-powered microservices with:
+  - Gin for a straightforward RESTful API
+  - A CQRS setup to keep things neat and efficient
+  - Event-driven magic for those real-time alerts
+  - Event Sourcing to track every little change
+  - A Repository pattern to keep data tidy
+  - SQLite for storage (with an easy path to PostgreSQL if needed)
+- **Location Services**: Easily find places via the Google Maps API
 
-## 🎨 Design Patterns
+## 🎨 Cool Design Choices
 
-- **CQRS (Command Query Responsibility Segregation)**: Separate read and write operations through specialized interfaces
-- **Repository Pattern**: Abstract data persistence through WashroomRepository and LocationQueryRepository
-- **Event Sourcing**: Track state changes through immutable events using the Event interface
-- **Aggregate Pattern**: Encapsulate domain logic and ensure consistency using Aggregate interface
-- **Interface Segregation**: Clean separation of concerns in repository and service layers
-- **Dependency Injection**: Used throughout services for loose coupling
-- **Factory Pattern**: Service and repository creation through New* functions
+I kept things simple but smart:
 
-## 🚀 Key Features
+- **CQRS**: Separating commands and queries so everything runs smooth.
+- **Repository Pattern**: Abstracting data details away.
+- **Event Sourcing**: Every change gets its own moment in time.
+- **Aggregate Pattern and Interface Segregation**: Keeping the code clear and focused.
+- **Dependency Injection & Factory Pattern**: For a flexible, easy-to-test setup
 
-- Real-time washroom location discovery
-- Proximity-based search with customizable radius
-- Building and floor-level washroom filtering
-- Advanced search with amenity filtering
-- Crowd-sourced review system
-- Real-time status updates and issue reporting
-- Cross-platform mobile support
+## 🚀 Features You’ll Love
+
+- Quick, real-time washroom searches.
+- Customizable search radius to fit your pace.
+- Filters for building and floor levels.
+- Advanced search options including amenities.
+- Community reviews so you know what to expect.
+- Up-to-date status and issue reporting.
+- Cross-platform support that keeps you connected.
 
 ## 🛠 Technical Stack
 
@@ -60,40 +60,22 @@ The application follows a modern microservices architecture with:
 - TypeScript
 - Native device location services
 
-## 🔧 Containerization
+## 🔧 Running the App
 
-The application uses Docker for containerization:
-
-- Multi-stage builds for optimized image sizes
-- Non-root user execution for enhanced security
-- Persistent volume mounts for database storage
-- Environment-based configuration
-
-### Running the Service
+A few quick commands and you're ready to go:
 
 ```bash
-# Using Docker Compose
+# Fire up using Docker Compose
 docker-compose up --build
 
-# Or using Docker directly
+# Or do it manually
 docker build -t washroom-service ./washroom-data-service
 docker run -p 8080:8080 washroom-service
 ```
 
-## 🌟 Coming Soon
+## 🌟 What’s Next?
 
-- OAuth2 authentication
-- Advanced analytics dashboard
-- Push notifications for status updates
-- Accessibility features
-- Cross-platform desktop support
-
-## 👥 Contributors
-
-- [@JustColdToast](https://github.com/JustColdToast)
-- Original concept inspired by SacHacks 2022 project: [Loo-Locator](https://github.com/SippinOnJuiceBox/Loo-Locator-Find-the-nearest-washroom)
-
-## 📝 License
-
-MIT License - See LICENSE file for details
-
+- OAuth2 authentication for extra security.
+- Real-time push alerts.
+- More accessibility features.
+- Desktop support on the horizon.
