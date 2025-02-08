@@ -21,6 +21,16 @@ type Washroom struct {
 	UpdatedAt    time.Time `json:"updatedAt"`
 }
 
+// New constructor for creating a Washroom
+func NewWashroom() *Washroom {
+	return &Washroom{
+		BaseAggregate: BaseAggregate{
+			Version:           1,
+			UncommittedEvents: make([]Event, 0),
+		},
+	}
+}
+
 func (w *Washroom) ApplyEvent(event Event) error {
 	switch e := event.(type) {
 	case *WashroomCreatedEvent:
@@ -31,13 +41,16 @@ func (w *Washroom) ApplyEvent(event Event) error {
 		w.Floor = e.Floor
 		w.Gender = e.Gender
 		w.IsAccessible = e.IsAccessible
+		w.CreatedAt = time.Now()
+		w.UpdatedAt = time.Now()
 	case *WashroomUpdatedEvent:
-		// Apply updates based on event data
 		if e.Name != "" {
 			w.Name = e.Name
 		}
 		// ...handle other field updates...
+		w.UpdatedAt = time.Now()
 	}
-	w.Version++
+	w.Version = event.GetVersion()
+	w.UncommittedEvents = append(w.UncommittedEvents, event)
 	return nil
 }

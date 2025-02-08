@@ -43,6 +43,7 @@ EXPOSE 8080
 
 # Set environment variables
 ENV GIN_MODE=release
+ENV ENVIRONMENT=production
 
 # Run the application
 CMD ["./washroom-service"]

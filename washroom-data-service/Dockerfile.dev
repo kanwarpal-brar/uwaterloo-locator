@@ -7,4 +7,6 @@ WORKDIR /workspace/washroom-data-service
 
 EXPOSE 8080 40000
 
+ENV ENVIRONMENT=development
+
 CMD ["tail", "-f", "/dev/null"]
