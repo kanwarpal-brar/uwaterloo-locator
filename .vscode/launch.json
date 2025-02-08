@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug in Docker",
+            "type": "go",
+            "request": "attach",
+            "mode": "remote",
+            "remotePath": "/workspace/washroom-data-service",
+            "port": 40000,
+            "host": "127.0.0.1",
+            "showLog": true,
+            "trace": "verbose",
+            "preLaunchTask": "docker-compose-debug",
+            "postDebugTask": "docker-compose-down",
+            "substitutePath": [
+                {
+                    "from": "${workspaceFolder}",
+                    "to": "/workspace"
+                }
+            ]
+        }
+    ]
+}

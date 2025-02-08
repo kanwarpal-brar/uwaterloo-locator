@@ -1,0 +1,12 @@
+FROM golang:1.23.6-alpine
+
+# Install debugging dependencies
+RUN apk add --no-cache gcc musl-dev sqlite-dev delve sqlite
+
+WORKDIR /workspace/washroom-data-service
+
+RUN touch washrooms.db && chmod 666 washrooms.db
+
+EXPOSE 8080 40000
+
+CMD ["tail", "-f", "/dev/null"]

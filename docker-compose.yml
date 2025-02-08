@@ -1,19 +1,25 @@
-version: '3.8'
-
 services:
-  washroom-service:
+  washroom-service-debug:
     build:
       context: ./washroom-data-service
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     ports:
       - "8080:8080"
+      - "40000:40000"
     volumes:
-      - washroom-data:/app/data
-    healthcheck:
-      test: ["CMD", "wget", "--spider", "http://localhost:8080/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 3
+      - .:/workspace
+    security_opt:
+      - "seccomp:unconfined"
+    cap_add:
+      - SYS_PTRACE
+    environment:
+      - CGO_ENABLED=1
+    working_dir: /workspace/washroom-data-service
+    command: dlv debug --headless --listen=:40000 --api-version=2 --accept-multiclient --continue --allow-non-terminal-interactive .
+    networks:
+      - debug-network
 
-volumes:
-  washroom-data:
+networks:
+  debug-network:
+    name: debug-network
+    driver: bridge
