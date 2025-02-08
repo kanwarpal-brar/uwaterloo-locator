@@ -2,7 +2,9 @@ package main
 
 import (
 	"database/sql"
+	"io/ioutil"
 	"log"
+	"os"
 
 	"washroom-data-service/handler"
 	"washroom-data-service/middleware"
@@ -14,6 +16,29 @@ import (
 )
 
 func main() {
+	if _, err := os.Stat("./washrooms.db"); os.IsNotExist(err) {
+		// Create and initialize database
+		file, err := os.Create("./washrooms.db")
+		if err != nil {
+			log.Fatal(err)
+		}
+		file.Close()
+
+		// Open DB and run schema
+		db, err := sql.Open("sqlite3", "./washrooms.db")
+		if err != nil {
+			log.Fatal(err)
+		}
+		schemaBytes, err := ioutil.ReadFile("washroom-data-service/repository/sqlite/schema.sql")
+		if err != nil {
+			log.Fatal(err)
+		}
+		if _, err := db.Exec(string(schemaBytes)); err != nil {
+			log.Fatal(err)
+		}
+		db.Close()
+	}
+
 	db, err := sql.Open("sqlite3", "./washrooms.db")
 	if err != nil {
 		log.Fatal(err)
@@ -48,6 +73,7 @@ func main() {
 	}
 
 	// Start server
+	log.Println("API server listening")
 	if err := r.Run(":8080"); err != nil {
 		log.Fatal(err)
 	}

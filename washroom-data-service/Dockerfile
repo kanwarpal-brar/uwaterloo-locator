@@ -35,10 +35,6 @@ RUN chown appuser:appuser /app
 # Copy binary from builder
 COPY --from=builder /app/washroom-service .
 
-# Copy SQLite database file if it exists
-COPY --from=builder /app/washrooms.db ./washrooms.db
-RUN chown appuser:appuser washrooms.db
-
 # Switch to non-root user
 USER appuser
 

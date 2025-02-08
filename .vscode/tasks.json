@@ -2,29 +2,52 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "docker-compose-debug",
+            "label": "docker-compose-up-debug",
             "type": "shell",
             "command": "docker compose down --remove-orphans && docker compose up --build washroom-service-debug",
             "isBackground": true,
             "problemMatcher": {
                 "pattern": {
-                    "regexp": "^.*API server listening.*$",
+                    "regexp": "^.*Listening and serving HTTP on.*$",
                     "file": 1,
                     "location": 2,
                     "message": 3
                 },
                 "background": {
                     "activeOnStart": true,
-                    "beginsPattern": "^.*API server listening.*$",
-                    "endsPattern": "^.*API server listening.*$"
+                    "beginsPattern": "^.*Starting service.*$",
+                    "endsPattern": "^.*Listening and serving HTTP on.*$"
                 }
+            },
+            "presentation": {
+                "reveal": "always",
+                "panel": "shared",
+                "group": "debug-docker"
+            }
+        },
+        {
+            "label": "docker-compose-attach",
+            "type": "shell",
+            "command": "echo Waiting for debugger to attach...",
+            "dependsOn": "docker-compose-up-debug",
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared",
+                "group": "debug-docker",
+                "close": true
             }
         },
         {
             "label": "docker-compose-down",
             "type": "shell",
             "command": "docker compose down --remove-orphans",
-            "problemMatcher": []
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "silent",
+                "panel": "shared",
+                "group": "debug-docker",
+                "close": true
+            }
         }
     ]
 }
