@@ -7,17 +7,39 @@ services:
       - "8080:8080"
       - "40000:40000"
     volumes:
-      - .:/workspace
-    security_opt:
-      - "seccomp:unconfined"
-    cap_add:
-      - SYS_PTRACE
+      - ./washroom-data-service:/app
     environment:
       - CGO_ENABLED=1
-    working_dir: /workspace/washroom-data-service
     command: dlv debug --headless --listen=:40000 --api-version=2 --accept-multiclient --continue --allow-non-terminal-interactive .
     networks:
       - debug-network
+
+  washroom-service-dev:
+    build:
+      context: ./washroom-data-service
+      dockerfile: Dockerfile.dev
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./washroom-data-service:/app
+    environment:
+      - CGO_ENABLED=1
+      - GO111MODULE=on
+    command: go run main.go
+    networks:
+      - debug-network
+
+volumes:
+  go-mod-cache:
+    driver: local
+    driver_opts:
+      type: none
+      device: $HOME/.cache/go-mod
+      o: bind
+  go-build-cache:
+    driver: local
+  debug-cache:
+    driver: local
 
 networks:
   debug-network:

@@ -1,12 +1,19 @@
 FROM golang:1.23.6-alpine
 
-# Install debugging dependencies
-RUN apk add --no-cache gcc musl-dev sqlite-dev delve sqlite
+# Install development dependencies
+RUN apk add --no-cache gcc musl-dev sqlite-dev delve sqlite git
 
-WORKDIR /workspace/washroom-data-service
+WORKDIR /app
+
+# Copy go mod files and download dependencies during build
+COPY go.mod go.sum ./
+RUN go mod download
 
 EXPOSE 8080 40000
 
-ENV ENVIRONMENT=development
+ENV ENVIRONMENT=development \
+    CGO_ENABLED=1 \
+    GO111MODULE=on
 
+# Keep container running for development
 CMD ["tail", "-f", "/dev/null"]
