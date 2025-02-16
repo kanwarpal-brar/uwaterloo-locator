@@ -8,24 +8,11 @@ services:
       - "40000:40000"
     volumes:
       - ./washroom-data-service:/app
+      - go-mod-cache:/go/pkg/mod
+      - go-build-cache:/go/build
     environment:
       - CGO_ENABLED=1
-    command: dlv debug --headless --listen=:40000 --api-version=2 --accept-multiclient --continue --allow-non-terminal-interactive .
-    networks:
-      - debug-network
-
-  washroom-service-dev:
-    build:
-      context: ./washroom-data-service
-      dockerfile: Dockerfile.dev
-    ports:
-      - "8080:8080"
-    volumes:
-      - ./washroom-data-service:/app
-    environment:
-      - CGO_ENABLED=1
-      - GO111MODULE=on
-    command: go run main.go
+    command: dlv debug --headless --listen=:40000 --api-version=2 --accept-multiclient --continue --allow-non-terminal-interactive -- build -gcflags="all=-N -l" .
     networks:
       - debug-network
 

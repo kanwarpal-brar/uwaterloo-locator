@@ -9,6 +9,9 @@ WORKDIR /app
 COPY go.mod go.sum ./
 RUN go mod download
 
+# Copy source code
+COPY . .
+
 EXPOSE 8080 40000
 
 ENV ENVIRONMENT=development \

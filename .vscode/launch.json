@@ -6,7 +6,7 @@
             "type": "go",
             "request": "attach",
             "mode": "remote",
-            "remotePath": "/workspace/washroom-data-service",
+            "remotePath": "/app",
             "port": 40000,
             "host": "127.0.0.1",
             "showLog": true,
@@ -15,8 +15,8 @@
             "postDebugTask": "docker-compose-down",
             "substitutePath": [
                 {
-                    "from": "${workspaceFolder}",
-                    "to": "/workspace"
+                    "from": "${workspaceFolder}/washroom-data-service",
+                    "to": "/app"
                 }
             ]
         }

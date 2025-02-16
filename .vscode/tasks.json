@@ -4,7 +4,7 @@
         {
             "label": "docker-compose-up-debug",
             "type": "shell",
-            "command": "docker compose down --remove-orphans && docker compose up --build washroom-service-debug",
+            "command": "docker compose up --build washroom-service-debug",
             "isBackground": true,
             "problemMatcher": {
                 "pattern": {
@@ -47,25 +47,6 @@
                 "panel": "shared",
                 "group": "debug-docker",
                 "close": true
-            }
-        },
-        {
-            "label": "docker-compose-up-dev",
-            "type": "shell",
-            "command": "docker compose up --build washroom-service-dev",
-            "isBackground": true,
-            "problemMatcher": {
-                "pattern": {
-                    "regexp": "^.*building.*$",
-                    "file": 1,
-                    "location": 2,
-                    "message": 3
-                }
-            },
-            "presentation": {
-                "reveal": "always",
-                "panel": "shared",
-                "group": "dev-docker"
             }
         }
     ]
