@@ -1,4 +1,13 @@
 services:
+  washroom-service:
+    build:
+      context: ./washroom-data-service
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - debug-network
+
   washroom-service-debug:
     build:
       context: ./washroom-data-service
@@ -13,6 +22,21 @@ services:
     environment:
       - CGO_ENABLED=1
     command: dlv debug --headless --listen=:40000 --api-version=2 --accept-multiclient --continue --allow-non-terminal-interactive -- build -gcflags="all=-N -l" .
+    networks:
+      - debug-network
+
+  washroom-service-air:
+    build:
+      context: ./washroom-data-service
+      dockerfile: Dockerfile.air
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./washroom-data-service:/app
+      - go-mod-cache:/go/pkg/mod
+      - go-build-cache:/go/build
+    environment:
+      - CGO_ENABLED=1
     networks:
       - debug-network
 

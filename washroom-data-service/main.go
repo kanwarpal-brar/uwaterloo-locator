@@ -47,7 +47,6 @@ func main() {
 			washrooms.POST("/", washroomHandler.Create)
 			washrooms.GET("/:id", washroomHandler.GetByID)
 			washrooms.GET("/nearby", washroomHandler.FindNearby)
-			// Add more routes as needed
 		}
 	}
 

@@ -2,7 +2,17 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Debug in Docker",
+            "type": "node",
+            "request": "launch",
+            "name": "data-service Air",
+            "cwd": "${workspaceFolder}",
+            "runtimeExecutable": "docker",
+            "args": ["compose", "up", "--build", "washroom-service-air"],
+            "console": "integratedTerminal",
+        },
+
+        {
+            "name": "data-service Debug",
             "type": "go",
             "request": "attach",
             "mode": "remote",
@@ -19,6 +29,6 @@
                     "to": "/app"
                 }
             ]
-        }
+        },
     ]
 }
