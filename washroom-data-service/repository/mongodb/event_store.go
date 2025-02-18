@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"washroom-data-service/models"
-	"washroom-data-service/repository/eventstore"
+	"washroom-data-service/repository"
 
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
@@ -20,7 +20,7 @@ type EventDocument struct {
 }
 
 type MongoEventStore struct {
-	eventstore.BaseEventStore
+	repository.BaseEventStore
 	collection *mongo.Collection
 }
 
@@ -39,7 +39,7 @@ func (s *MongoEventStore) GetEvents(ctx context.Context, aggregateID string) ([]
 	cursor, err := s.collection.Find(ctx, bson.M{"aggregateId": aggregateID})
 	if err != nil {
 		if err == mongo.ErrNoDocuments {
-			return nil, eventstore.ErrAggregateNotFound
+			return nil, repository.ErrAggregateNotFound
 		}
 		return nil, err
 	}

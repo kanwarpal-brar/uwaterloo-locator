@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 	"os"
-	"washroom-data-service/db"
+	db "washroom-data-service/db/sqlite"
 	"washroom-data-service/handler"
 	"washroom-data-service/middleware"
 	"washroom-data-service/repository/sqlite"

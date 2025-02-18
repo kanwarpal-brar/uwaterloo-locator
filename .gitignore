@@ -25,3 +25,4 @@ yarn-error.log*
 
 # debug binaries
 *_debug_bin*
+tmp

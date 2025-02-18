@@ -6,11 +6,11 @@ import (
 	"encoding/json"
 
 	"washroom-data-service/models"
-	"washroom-data-service/repository/eventstore"
+	"washroom-data-service/repository"
 )
 
 type SQLiteEventStore struct {
-	eventstore.BaseEventStore
+	repository.BaseEventStore
 	db *sql.DB
 }
 
@@ -104,7 +104,7 @@ func (s *SQLiteEventStore) GetEvents(ctx context.Context, aggregateID string) ([
 	}
 
 	if len(events) == 0 {
-		return nil, eventstore.ErrAggregateNotFound
+		return nil, repository.ErrAggregateNotFound
 	}
 
 	return events, rows.Err()

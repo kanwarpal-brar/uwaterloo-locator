@@ -4,7 +4,6 @@ import (
 	"context"
 	"washroom-data-service/models"
 	"washroom-data-service/repository"
-	"washroom-data-service/repository/eventstore"
 )
 
 // WashroomService defines the interface for washroom-related business operations
@@ -35,16 +34,16 @@ type WashroomService interface {
 type washroomService struct {
 	repo         repository.WashroomRepository
 	queryRepo    repository.LocationQueryRepository
-	eventStore   eventstore.EventStore
-	eventHandler eventstore.EventHandler
+	eventStore   repository.EventStore
+	eventHandler repository.EventHandler
 }
 
 // NewWashroomService creates a new instance of WashroomService
 func NewWashroomService(
 	repo repository.WashroomRepository,
 	queryRepo repository.LocationQueryRepository,
-	eventStore eventstore.EventStore,
-	eventHandler eventstore.EventHandler,
+	eventStore repository.EventStore,
+	eventHandler repository.EventHandler,
 ) WashroomService {
 	return &washroomService{
 		repo:         repo,

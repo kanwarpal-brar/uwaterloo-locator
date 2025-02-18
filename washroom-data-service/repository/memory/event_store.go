@@ -5,11 +5,11 @@ import (
 	"sync"
 
 	"washroom-data-service/models"
-	"washroom-data-service/repository/eventstore"
+	"washroom-data-service/repository"
 )
 
 type MemoryEventStore struct {
-	eventstore.BaseEventStore
+	repository.BaseEventStore
 	mutex  sync.RWMutex
 	events map[string][]models.Event
 }
@@ -40,5 +40,5 @@ func (s *MemoryEventStore) GetEvents(ctx context.Context, aggregateID string) ([
 	if events, exists := s.events[aggregateID]; exists {
 		return events, nil
 	}
-	return nil, eventstore.ErrAggregateNotFound
+	return nil, repository.ErrAggregateNotFound
 }
