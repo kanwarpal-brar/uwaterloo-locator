@@ -77,5 +77,3 @@ docker run -p 8080:8080 washroom-service
 
 - OAuth2 authentication for extra security.
 - Real-time push alerts.
-- More accessibility features.
-- Desktop support on the horizon.
