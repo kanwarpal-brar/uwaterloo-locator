@@ -3,6 +3,7 @@ CREATE TABLE IF NOT EXISTS washrooms (
     name TEXT NOT NULL,
     latitude REAL NOT NULL,
     longitude REAL NOT NULL,
+    location_updates INTEGER NOT NULL DEFAULT 1,
     building TEXT NOT NULL,
     floor INTEGER NOT NULL,
     gender TEXT NOT NULL,

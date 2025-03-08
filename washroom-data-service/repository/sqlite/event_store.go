@@ -109,3 +109,20 @@ func (s *SQLiteEventStore) GetEvents(ctx context.Context, aggregateID string) ([
 
 	return events, rows.Err()
 }
+
+// ReconstructWashroom rebuilds a washroom's state by applying all events
+func (s *SQLiteEventStore) ReconstructWashroom(ctx context.Context, aggregateID string) (*models.Washroom, error) {
+	events, err := s.GetEvents(ctx, aggregateID)
+	if err != nil {
+		return nil, err
+	}
+
+	washroom := models.NewWashroom()
+	for _, event := range events {
+		if err := washroom.ApplyEvent(event); err != nil {
+			return nil, err
+		}
+	}
+
+	return washroom, nil
+}

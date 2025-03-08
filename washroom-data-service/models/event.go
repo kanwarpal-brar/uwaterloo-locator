@@ -36,3 +36,8 @@ func (e BaseEvent) GetEventType() string    { return e.EventType }
 func (e BaseEvent) GetVersion() int         { return e.Version }
 func (e BaseEvent) GetTimestamp() time.Time { return e.Timestamp }
 func (e BaseEvent) ToJSON() ([]byte, error) { return json.Marshal(e) }
+
+// Helper method for event serialization
+func toJSON(e interface{}) ([]byte, error) {
+	return json.Marshal(e)
+}
